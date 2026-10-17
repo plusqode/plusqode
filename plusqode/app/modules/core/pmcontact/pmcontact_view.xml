@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<plusqode>
+  
+  <view type="table" name="contact_table" model="contact">
+    <partial ptr="core.pmcontact.partial_view:table"/>
+  </view>
+  
+  <view type="form" name="contact_form" model="contact">
+      <layout>
+          <label label="user" alignment="center" icon="picons/pos/customer/user.png" size="(128, 128)" newline="false" hs="(0, 0)"/>
+          <label label="user" alignment="center" icon="picons/pos/customer/user.png" size="(128, 128)" newline="false" hs="(50, 0)"/>
+          <label label="user" alignment="center" icon="picons/pos/customer/user.png" size="(128, 128)" hs="(100, 0)"/>
+      </layout>
+      <layout>
+          <separator/>
+      </layout>
+      <partial ptr="core.pmcontact.partial_view:form"/>
+  </layout>
+
+  </view>
+
+
+</plusqode>
+

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<plusqode>
+  
+  <view type="table" name="profile_module_table" model="profile_module">
+      <field name="name"/>
+      <field name="visible"/>
+      <field name="enabled"/>
+  </view>
+
+  <view type="form" name="profile_module_form" model="profile_module">
+      <layout name="header">
+          <label label="user" alignment="center" icon="picons/core/actions/warning.png" size="(96, 96)" newline="false" hs="(0, 0)"/>
+          <label label="user" alignment="center" icon="picons/core/actions/forbidden.png" size="(96, 96)" newline="false" hs="(0, 0)"/>
+      </layout>
+
+      <layout>
+          <separator/>
+      </layout>
+      
+      <layout arrangement="vertical">
+          <field name="name"/>
+      </layout>
+      
+      <layout>
+          <separator/>
+      </layout>
+      
+      <layout>
+          
+          <layout newline="false">
+              <vseparator width="10"/>
+          </layout>
+
+          <layout newline="false" minimumWidth="150">
+              <field name="visible"/>
+              <field name="enabled"/>
+          </layout>
+          
+          <layout newline="false">
+              <vseparator width="10"/>
+          </layout>
+
+      </layout>
+
+      <layout>
+          <separator/>
+      </layout>
+
+  </view>
+
+
+</plusqode>
+

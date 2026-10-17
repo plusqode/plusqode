@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<plusqode>
+  
+  <view type="table" name="address_table" model="address">
+      <field name="name"/>
+      <field name="tax_rate_id.name"/>
+  </view>
+  
+  <view type="tab" name="address_tab" model="address" subModelName='product_table' subViewType='icon'/>
+
+  <view type="form" name="address_form" model="address">
+      
+      <layout>
+          <label label="user" alignment="center" icon="picons/pos/customer/user.png" size="(128, 128)" newline="false" hs="(0, 0)"/>
+          <label label="user" alignment="center" icon="picons/pos/customer/user.png" size="(128, 128)" newline="false" hs="(50, 0)"/>
+          <label label="user" alignment="center" icon="picons/pos/customer/user.png" size="(128, 128)" hs="(100, 0)"/>
+      </layout>
+      
+      <layout>
+          <separator/>
+      </layout>
+
+      <layout minimumWidth="600" minimumHeight="50">
+          <layout>
+              <field name="name" main="true"/>
+          </layout>
+          <layout>
+              <layout newline="false">
+                  <field name="contact_name"/>
+                  <field name="contact_nickname"/>
+                  <field name="phone"/>
+                  <field name="email"/>
+                  <field name="vat_number"/>
+              </layout>
+              <layout newline="false">
+                  <field name="contact_surname"/>
+                  <field name="contact_nickname"/>
+                  <field name="mobile"/>
+                  <field name="pec"/>
+                  <field name="fiscal_code"/>
+              </layout>
+          </layout>
+
+          <tab>
+              <panel name="Address">
+                    <field name="street_name"/>
+                    <field name="street_number"/>
+                    <field name="address_note"/>
+                    <field name="postal_code"/>
+                    <field name="city"/>
+                    <field name="state_province"/>
+              </panel>
+              <panel name="Payments">
+                  <field name="account_holder"/>
+                  <field name="iban"/>
+                  <field name="bic_swift"/>
+              </panel>
+          </tab>
+
+  </view>
+
+
+</plusqode>
+

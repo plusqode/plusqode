@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='utf-8'?>
+<plusqode>
+
+  <view type='table' name='product_type_table' model='product_type' show_filter_panel='false'>
+      <field name='name'/>
+  </view>
+
+  <view type='form' name='product_type_form' model='product_type'>
+
+      <layout>
+          <label label='user' alignment='center' icon='picons/core/actions-128/under-construction.png' size='(128, 128)' newline='false' hs='(50, 0)'/>
+          <label label='user' alignment='center' icon='picons/core/actions-128/under-construction.png' size='(128, 128)' newline='false' hs='(150, 0)'/>
+          <label label='user' alignment='center' icon='picons/core/actions-128/under-construction.png' size='(128, 128)' newline='false' hs='(200, 0)'/>
+      </layout>
+
+      <layout>
+          <separator height='5'/>
+      </layout>
+
+      <layout>
+          <field name='name'/>
+      </layout>
+
+      <layout>
+          <separator/>
+      </layout>
+
+      <tab name='tab'>
+          <panel name='Descriptions'>
+              <field name='int_field'/>
+              <field name='color_field'/>
+              <field name='contact_id'/>
+          </panel>
+
+          <panel name='Plain Description'>
+              <field name='plain_text_edit'/>
+          </panel>
+      </tab>
+
+  </view>
+
+
+</plusqode>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<plusqode>
+  
+  <view type="table" name="user_manager_table" model="user_manager">
+      <field name="name"/>
+      <field name="username"/>
+      <field name="profile_id.name" label="Type"/>
+      <field name="icon"/>
+      <field name="user_state_id"/>
+  </view>
+  
+  <view type="icon" name="user_manager_icon" model="user_manager">
+      <field name="name"/>
+  </view>
+
+  <view type="form" name="user_manager_form" model="user_manager">
+      
+      <layout>
+          <label label="user" alignment="center" icon="picons/pos/customer/tux.png" size="(128, 128)" newline="false" hs="(0, 0)"/>
+          <label label="user" alignment="center" icon="picons/pos/customer/tux.png" size="(128, 128)" newline="false" hs="(50, 0)"/>
+          <label label="user" alignment="center" icon="picons/pos/customer/tux.png" size="(128, 128)" hs="(100, 0)"/>
+      </layout>
+      
+      <layout>
+          <separator/>
+      </layout>
+
+      <layout minimumWidth="300">
+          <field name="username"/>
+          <field name="name"/>
+          <field name="profile_id"/>
+          <field name="icon"/>
+          <field name="user_state_id"/>
+          <field name="password"/>
+      </layout>
+      
+      <layout>
+          <separator/>
+      </layout>
+
+  </view>
+
+  <view type="views" value="[icon, table, form]"/>
+
+</plusqode>
+

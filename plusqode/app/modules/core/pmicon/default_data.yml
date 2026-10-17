@@ -1,0 +1,61 @@
+{
+icon: [
+  {
+    id: "$default",
+    name: "free",
+    icon: "picons/pos/restaurant/table.png",
+    hue: 0,
+    saturation: 0
+  },
+  {
+    id: "$default",
+    name: "busy",
+    icon: "picons/pos/restaurant/table.png",
+    hue: 260,
+    saturation: 0
+  },
+  {
+    id: "$default",
+    name: "billed",
+    icon: "picons/pos/restaurant/table.png",
+    hue: 290,
+    saturation: 0
+  },
+  {
+    id: "$default",
+    name: "to-pay",
+    icon: "picons/pos/restaurant/table.png",
+    hue: 90,
+    saturation: 0
+  },
+  {
+    id: "$default",
+    name: "booked",
+    icon: "picons/pos/restaurant/table.png",
+    hue: 0,
+    saturation: 1
+  },
+  {
+    id: "$default",
+    name: "print",
+    icon: ":/picons/core/actions/print.png",
+    hue: -1,
+    saturation: -1
+  },
+  {
+    id: "$default",
+    name: "enabled",
+    icon: "picons/pos/customer/user.png",
+    hue: 1,
+    saturation: 0
+  },
+  {
+    id: "$default",
+    name: "disabled",
+    icon: "picons/pos/customer/user.png",
+    hue: 0,
+    saturation: 1
+  }
+]
+}
+

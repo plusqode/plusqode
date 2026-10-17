@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<plusqode>
+    
+    <module name="Plus4Call" position="20"
+        icon="picons/core/models/pbx.png"
+        mainIcon="picons/core/models/pbx.png" iconSize="(256, 256)"
+        author="{name: 'PlusQode', address: 'Times Square, New York, +39 123.45.67'}"
+        description="This module ..."
+    />
+
+    <depends modules=""/>
+
+    <menuitem name='Phone Numbers' ref="{modelName: 'pbx_phone_number'}"/>
+    <menuitem name='Voice Agents' ref="{modelName: 'pbx_voice_agent'}"/>
+    <!-- <menuitem name="Setting"  ref="{modelName: 'pbx_setting'}"/> -->
+
+
+<menuitem_place_holder/>
+
+</plusqode>
+

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<plusqode>
+  
+  <view type="table" name="pos_printer_table" model="pos_printer">
+      <field name="name"/>
+      <field name="document_type_id"/>
+      <field name="ip_address"/>
+      <field name="port"/>
+      <field name="pos_printer_driver_id"/>
+  </view>
+
+  <view type="form" name="pos_printer_form" model="pos_printer">
+      
+      <layout>
+          <label label="user" alignment="center" icon="picons/core/models/printer.png" size="(64, 64)" newline="false" hs="(50, 0)"/>
+          <label label="user" alignment="center" icon="picons/core/models/printer.png" size="(64, 64)" newline="false" hs="(150, 0)"/>
+          <label label="user" alignment="center" icon="picons/core/models/printer.png" size="(64, 64)" newline="false" hs="(200, 0)"/>
+      </layout>
+      
+      <layout>
+          <separator/>
+      </layout>
+
+      <layout>
+          <field name="name"/>
+          <field name="document_type_id"/>
+          <field name="ip_address"/>
+          <field name="port"/>
+          <field name="pos_printer_driver_id"/>
+      </layout>
+      
+      <layout>
+          <separator/>
+      </layout>
+
+  </view>
+
+
+</plusqode>
+

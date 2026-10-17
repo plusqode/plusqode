@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='utf-8'?>
+<plusqode>
+
+  <view type='table' name='statistic_table' model='statistic' show_filter_panel='false'>
+      <field name='selection'/>
+  </view>
+
+  <view type='form' name='statistic_form' model='statistic'>
+
+      <layout>
+          <label label='user' alignment='center' icon='picons/core/actions-128/warning.png' size='(128, 128)' newline='false' hs='(0, 0)'/>
+          <label label='user' alignment='center' icon='picons/core/actions-128/warning.png' size='(128, 128)' newline='false' hs='(0, 0)'/>
+          <label label='user' alignment='center' icon='picons/core/actions-128/warning.png' size='(128, 128)' newline='false' hs='(0, 0)'/>
+      </layout>
+
+      <layout>
+          <separator height='5'/>
+      </layout>
+
+      <layout minimumWidth="350">
+          <field name='selection' label="Help us improve by sharing usage and crash data"/>
+      </layout>
+
+      <layout>
+          <separator/>
+      </layout>
+
+  </view>
+
+
+</plusqode>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<plusqode>
+  
+  <view type="table" name="pos_category_table" model="pos_category">
+      <partial ptr="core.pmcategory.pmcategory_view:table"/>
+  </view>
+
+  <view type="form" name="pos_category_form" model="pos_category">
+      <partial ptr="core.pmcategory.pmcategory_view:form"/>
+      <panel name="Categories" overload="remove"/>
+  </view>
+
+</plusqode>
+

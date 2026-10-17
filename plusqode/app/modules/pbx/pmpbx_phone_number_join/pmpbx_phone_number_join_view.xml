@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='utf-8'?>
+<plusqode>
+
+  <view type='table' name='pbx_phone_number_join_table' model='pbx_phone_number_join' show_filter_panel='false'>
+      <field name='pbx_phone_number_ptr_id.phone_number' label='Phone Number'/>
+      <field name='ivr_key'/>
+  </view>
+
+  <view type='form' name='pbx_phone_number_join_form' model='pbx_phone_number_join'>
+
+      <layout>
+          <label label='user' alignment='center' icon='picons/core/actions-128/under-construction.png' size='(128, 128)' newline='false' hs='(50, 0)'/>
+          <label label='user' alignment='center' icon='picons/core/actions-128/under-construction.png' size='(128, 128)' newline='false' hs='(150, 0)'/>
+          <label label='user' alignment='center' icon='picons/core/actions-128/under-construction.png' size='(128, 128)' newline='false' hs='(200, 0)'/>
+      </layout>
+
+      <layout>
+          <separator height='5'/>
+      </layout>
+
+      <layout>
+          <field name='pbx_phone_number_ptr_id' label='Phone Number'/>
+          <field name='ivr_key'/>
+      </layout>
+
+      <layout>
+          <separator/>
+      </layout>
+
+  </view>
+
+
+</plusqode>

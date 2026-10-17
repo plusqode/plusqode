@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<plusqode>
+  
+  <view type="table" name="document_table" model="document">
+      <field name="serial"/>
+      <field name="document_state_id.name"/>
+      <field name="user_manager_id.name"/>
+      <field name="contact_id.name"/>
+  </view>
+  
+  <view type="icon" name="document_icon" model="document" showControlPanel="true" gridSize="(140, 140)" iconSize="(96, 96)"/>
+
+  <view type="form" name="document_form" model="document" button_role="7">
+      <layout newline="false" maximumWidth="25%">
+          <layout>
+              <field name="serial"/>
+              <field name="document_state_id"/>
+              <field name="user_manager_id" editable="false" edit="false" new="false" />
+              <field name="contact_id"/>
+          </layout>
+          <layout spacing="0">
+              <field name="category_table" label="" cols="2" rows="15" alignment="center" fontSize="14"/>
+          </layout>
+      </layout>
+      <layout maximumWidth="75%">
+          <layout>
+              <layout name="number_pad" newline="false"/>
+              <layout name="print_pad"  newline="false">
+              </layout>
+              <layout maximumWidth="200">
+                  <field name="discount_rate"/>
+                  <field name="taxable"/>
+                  <field name="tax"/>
+                  <field name="total"/>
+                  <field name="barcode"/>
+              </layout>
+          </layout>
+          <layout spacing="0">
+              <field name="product_table" label="" cols="7" rows="4" alignment="center" posStyle="true" fontSize="12"/>
+              <field name="pos_document_item_table"/>
+          </layout>
+      </layout>
+  </view>
+  
+  <view type="views" value="[table, icon]"/>
+
+
+    <view type="controlpanel">
+        <layout name="control-panel">
+            <menusection  newline="false">
+                <menuitem name="Edit"  action="edit" icon=":/picons/core/actions/edit.png"
+                          toolTip="Edit Row"
+                          minimumHeight="60" maximumWidth="100"/>
+
+                <menuitem name="Remove"  action="remove" askConfirm="Do You Want to Remove ?"
+                          icon="{name: ':/picons/core/actions/delete.png'}"
+                          toolTip="Remove"
+                          minimumHeight="60" maximumWidth="100"/>
+
+                <menuitem name="To Pay"  action="setToPay"
+                          icon="{name: ':/picons/core/actions/delete.png', hue: 200}"
+                          toolTip="To Pay"
+                          minimumHeight="60" maximumWidth="100"/>
+
+                <menuitem name="Booked"  action="setBooked"
+                          icon="{name: ':/picons/core/actions/delete.png', hue: 800}"
+                          toolTip="Booked"
+                          minimumHeight="60" maximumWidth="100"/>
+
+                <menuitem name="Clean"  action="clean"
+                          icon="{name: 'picons/core/actions/paintbrush.png'}"
+                          toolTip="Exit"
+                          minimumHeight="60" maximumWidth="100"/>
+
+                <menuitem name="Exit"  action="exit"
+                          icon="{name: ':/picons/core/actions/exit.png'}"
+                          toolTip="Exit"
+                          minimumHeight="60" maximumWidth="100"/>
+                          minimumHeight="60" maximumWidth="100"/>
+
+            </menusection>
+        </layout>
+    </view>
+
+
+</plusqode>
+

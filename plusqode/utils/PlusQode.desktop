@@ -1,0 +1,11 @@
+[Desktop Entry]
+Version=1.0
+Encoding=UTF-8
+Name=PlusQode
+Type=Application
+Comment=plusqode Plus for C
+Icon=~/picons/plusqode/plusqode.png
+Exec=bash -c 'cd "~"; ./plusqode'
+Terminal=false
+GenericName[en_US]=
+Name[en_US]=PlusQode

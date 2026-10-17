@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<plusqode>
+
+    <view type="table" name="pos_product_table" model="pos_product">
+        <partial ptr="core.pmproduct.pmproduct_view:table"/>
+    </view>
+
+    <view type="form" name="pos_product_form" model="pos_product">
+        <partial ptr="core.pmproduct.pmproduct_view:form"/>
+        <layout name="header" overload="replace">
+            <layout>
+                <label label="user" alignment="center" icon="picons/pos/foodicons/coke/CocaCola-Zero-0.png" size="(128, 128)" newline="false" hs="(0, 0)"/>
+                <label label="user" alignment="center" icon="picons/pos/foodicons/coke/CocaCola-Zero-0.png" size="(128, 128)" newline="false" hs="(50, 0)"/>
+                <label label="user" alignment="center" icon="picons/pos/foodicons/coke/CocaCola-Zero-0.png" size="(128, 128)" newline="false" hs="(100, 0)"/>
+            </layout>
+        </layout>
+
+        <layout>
+            <separator/>
+        </layout>
+
+        <layout>
+            <field name="pos_printer_id"/>
+        </layout>
+
+        <tab name="tab" overload="replace"/>
+
+        <layout>
+            <separator/>
+        </layout>
+
+    </view>
+
+
+</plusqode>
+

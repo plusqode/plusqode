@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<plusqode>
+    
+    <module name="CRM" position="20" 
+        icon="picons/pos/customer/user.png" 
+        mainIcon="picons/pos/customer/user.png" iconSize="(256, 256)"
+        author="{name: 'PlusQode', address: 'Via Nino Arcidiacono 49/A,95018 Riposto(CT)'}"
+        description="Restaurant Easy Manager"
+    />
+
+    <menuitem name="Contacts"  ref="{modelName: 'contact'}"/>
+
+    <menusection name="SETTINGS" icon="picons/core/actions/settings.png">
+        <menuitem name="Contact Types" ref="{modelName: 'contact_type'}"/>
+    </menusection>
+
+
+</plusqode>
+

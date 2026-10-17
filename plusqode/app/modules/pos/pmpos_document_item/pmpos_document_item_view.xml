@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<plusqode>
+  
+  <view type="table" name="document_item_table" model="document_item">
+    <field name="quantity"/>
+    <field name="name"/>
+    <field name="price"/>
+    <field name="discount_rate"/>
+    <field name="price_with_discount"/>
+    <field name="tax_rate_id.value" label="Tax Rate"/>
+    <field name="price_with_discount_and_tax"/>
+    <field name="total_with_discount"/>
+  </view>
+
+  <view type="form" name="document_item_form" model="document_item">
+      <layout name="header">
+          <label label="user" alignment="center" icon="picons/core/models/phone.png" size="(96, 96)" newline="false" hs="(0, 0)"/>
+          <label label="user" alignment="center" icon="picons/core/models/computer.png" size="(96, 96)" newline="false" hs="(0, 0)"/>
+          <label label="user" alignment="center" icon="picons/pos/foodicons/coke/Coke-Zero-0.png" size="(96, 96)" newline="false" hs="(0, 0)"/>
+      </layout>
+
+      <layout>
+          <separator/>
+      </layout>
+
+      <layout>
+          <field name="product_id"/>
+          <field name="name"/>
+      </layout>
+      <layout>
+          <layout newline="false">
+              <field name="quantity"/>
+              <field name="price"/>
+              <field name="discount_rate"/>
+              <field name="price_with_discount"/>
+              <field name="amount_with_discount"/>
+          </layout>
+          <layout newline="false">
+          </layout>
+          <group label="Tax" checked="false">
+              <field name="tax_rate_id"/>
+              <field name="price_with_tax"/>
+              <field name="price_with_discount_and_tax"/>
+              <field name="total_with_discount"/>
+          </group>
+      </layout>
+      
+      <layout>
+          <separator/>
+      </layout>
+
+  </view>
+  
+  
+  <view type="pos" name="document_item_pos" model="document_item">
+    <field name="quantity"/>
+    <field name="name"/>
+    <field name="description"/>
+    <field name="tax_total"/>
+    <field name="amount"/>
+    <field name="total"/>
+    <field name="tax_rate_id.department"/>
+  </view>
+
+
+    <view type="controlpanel">
+        <layout name="control-panel">
+            <menusection newline="false" spacing="0" maximumWidth="70">
+                <menuitem name="Up"  action="up" icon=":/picons/core/actions/up.png" newline="true"/>
+                <menuitem name="Down"  action="down" icon=":/picons/core/actions/down.png"/>
+            </menusection>
+            <menusection  newline="false">
+                <menuitem name="New"  action="new" icon=":/picons/core/actions/new.png"
+                          toolTip="New Row"
+                          minimumHeight="60" maximumWidth="70"/>
+                <menuitem name="Edit"  action="edit" icon=":/picons/core/actions/edit.png"
+                          toolTip="Edit Row"
+                          minimumHeight="60" maximumWidth="70"/>
+                <menuitem name="Remove"  action="remove"
+                          icon="{name: ':/picons/core/actions/delete.png', hue: 330}"
+                          toolTip="Delete Row"
+                          minimumHeight="60" maximumWidth="70"/>
+            </menusection>
+            <menusection/> <!-- it needs as horizontal spacer -->
+        </layout>
+    </view>
+
+
+</plusqode>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<plusqode>
+
+    <view type="controlpanel">
+        <layout name="control-panel">
+            <menusection newline="false" spacing="0" maximumWidth="70">
+                <menuitem name="Up"  action="up" icon=":/picons/core/actions/up.png" newline="true"/>
+                <menuitem name="Down"  action="down" icon=":/picons/core/actions/down.png"/>
+            </menusection>
+            <menusection  newline="false">
+                <menuitem name="New"  action="new" icon=":/picons/core/actions/new.png" 
+                          toolTip="New Row"                  
+                          minimumHeight="60" maximumWidth="70"/>
+                <menuitem name="Edit"  action="edit" icon=":/picons/core/actions/edit.png" 
+                          toolTip="Edit Row"                  
+                          minimumHeight="60" maximumWidth="70"/>
+                <menuitem name="Delete"  action="delete" askConfirm="Do You Want to Delete ?" 
+                          icon="{name: ':/picons/core/actions/delete.png', hue: 330}" 
+                          toolTip="Delete Row"                  
+                          minimumHeight="60" maximumWidth="70"/>
+                      <menuitem name="Duplicate"  action="duplicate" askConfirm="Do You Want to Duplicate ?" 
+                          toolTip="Duplicate Row"                  
+                          icon=":/picons/core/actions/duplicate.png" minimumHeight="60" maximumWidth="70"/>
+                <menusection name="Other" position="10" minimumHeight="60" maximumWidth="70">
+                    <menuitem name="Print" action="print" icon=":/picons/core/actions/print.png"/>
+                    <menuitem name="Export" action="exportCSV" icon="picons/core/actions/export.png"/>
+                </menusection>
+            </menusection>
+            <menusection/> <!-- it needs as horizontal spacer -->
+        </layout>
+    </view>
+
+</plusqode>
+

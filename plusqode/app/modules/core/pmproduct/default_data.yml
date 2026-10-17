@@ -1,0 +1,64 @@
+[
+
+{ category: [
+  {
+        id: "$default",
+        name: "CATEGORY-1"
+  }
+  ],
+
+  product: [
+  {
+    id: "$default",
+    category_id: lastId_category,
+    name: "Thermal Printer",
+    description: "Thermal Printer with Ethernet Interface",
+    price: 300,
+    tax_rate_id: 1,
+    tax: 30,
+    price_with_tax: 330
+  }]},
+
+
+{ category: [
+  {
+        id: "$default",
+        name: "CATEGORY-2"
+  }
+  ],
+
+  product: [
+  {
+    id: "$default",
+    category_id: lastId_category,
+    name: "Netgear Access Point WG602",
+    description: "Access Point 54MPS",
+    price: 50,
+    tax_rate_id: 1,
+    tax: 5,
+    price_with_tax: 55
+  },
+  {
+    id: "$default",
+    category_id: lastId_category,
+    name: "Epson FP-81 II",
+    description: "Fiscal Printer",
+    price: 500,
+    tax_rate_id: 1,
+    tax: 50,
+    price_with_tax: 550
+  },
+  {
+    id: "$default",
+    category_id: lastId_category,
+    name: "Apple iPhone X",
+    description: "Apple iPhone X 64GB",
+    price: 1000,
+    tax_rate_id: 1,
+    tax: 100,
+    price_with_tax: 1100
+  }]}
+
+]
+
+

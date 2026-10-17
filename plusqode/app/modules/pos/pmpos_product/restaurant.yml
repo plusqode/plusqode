@@ -1,0 +1,599 @@
+[
+{ category: [
+  {
+        id: "$default",
+        name: "FRUITS"
+  }
+  ],
+
+  product: [
+  {
+    id: "$default",
+    category_id: lastId_category,
+    name: "Apple",
+    description: "Apple",
+    price: 3,
+    tax_rate_id: 1,
+    tax: 0.3,
+    price_with_tax: 3.30,
+    icon: "picons/pos/foodicons/fruit/apple.png"
+  },
+
+  {
+    id: "$default",
+    category_id: lastId_category,
+    name: "Apricot",
+    description: "Apricot",
+    price: 3,
+    tax_rate_id: 1,
+    tax: 0.3,
+    price_with_tax: 3.30,
+    icon: "picons/pos/foodicons/fruit/apricot.png"
+  },
+
+  {
+    id: "$default",
+    category_id: lastId_category,
+    name: "Banana",
+    description: "Banana",
+    price: 3,
+    tax_rate_id: 1,
+    tax: 0.3,
+    price_with_tax: 3.30,
+    icon: "picons/pos/foodicons/fruit/banana.png"
+  },
+
+  {
+    id: "$default",
+    category_id: lastId_category,
+    name: "Blackberry",
+    description: "Blackberry",
+    price: 3,
+    tax_rate_id: 1,
+    tax: 0.3,
+    price_with_tax: 3.30,
+    icon: "picons/pos/foodicons/fruit/blackberry.png"
+  },
+
+  {
+    id: "$default",
+    category_id: lastId_category,
+    name: "Cherries",
+    description: "Cherries",
+    price: 3,
+    tax_rate_id: 1,
+    tax: 0.3,
+    price_with_tax: 3.30,
+    icon: "picons/pos/foodicons/fruit/cherries.png"
+  },
+
+  {
+    id: "$default",
+    category_id: lastId_category,
+    name: "Coconut",
+    description: "Coconut",
+    price: 3,
+    tax_rate_id: 1,
+    tax: 0.3,
+    price_with_tax: 3.30,
+    icon: "picons/pos/foodicons/fruit/coconut.png"
+  },
+
+  {
+    id: "$default",
+    category_id: lastId_category,
+    name: "Grapes",
+    description: "Grapes",
+    price: 3,
+    tax_rate_id: 1,
+    tax: 0.3,
+    price_with_tax: 3.30,
+    icon: "picons/pos/foodicons/fruit/grapes.png"
+  },
+
+  {
+    id: "$default",
+    category_id: lastId_category,
+    name: "Kiwi",
+    description: "Kiwi",
+    price: 3,
+    tax_rate_id: 1,
+    tax: 0.3,
+    price_with_tax: 3.30,
+    icon: "picons/pos/foodicons/fruit/kiwi.png"
+  },
+
+  {
+    id: "$default",
+    category_id: lastId_category,
+    name: "Lemon",
+    description: "Lemon",
+    price: 3,
+    tax_rate_id: 1,
+    tax: 0.3,
+    price_with_tax: 3.30,
+    icon: "picons/pos/foodicons/fruit/lemon.png"
+  },
+
+  {
+    id: "$default",
+    category_id: lastId_category,
+    name: "Lime",
+    description: "Lime",
+    price: 3,
+    tax_rate_id: 1,
+    tax: 0.3,
+    price_with_tax: 3.30,
+    icon: "picons/pos/foodicons/fruit/lime.png"
+  },
+
+  {
+    id: "$default",
+    category_id: lastId_category,
+    name: "Orange",
+    description: "Orange",
+    price: 3,
+    tax_rate_id: 1,
+    tax: 0.3,
+    price_with_tax: 3.30,
+    icon: "picons/pos/foodicons/fruit/orange.png"
+  },
+
+  {
+    id: "$default",
+    category_id: lastId_category,
+    name: "Peach",
+    description: "Peach",
+    price: 3,
+    tax_rate_id: 1,
+    tax: 0.3,
+    price_with_tax: 3.30,
+    icon: "picons/pos/foodicons/fruit/peach.png"
+  },
+
+  {
+    id: "$default",
+    category_id: lastId_category,
+    name: "Red Apple",
+    description: "Red Apple",
+    price: 3,
+    tax_rate_id: 1,
+    tax: 0.3,
+    price_with_tax: 3.30,
+    icon: "picons/pos/foodicons/fruit/redapple.png"
+  },
+
+  {
+    id: "$default",
+    category_id: lastId_category,
+    name: "Red Orange",
+    description: "Red Orange",
+    price: 3,
+    tax_rate_id: 1,
+    tax: 0.3,
+    price_with_tax: 3.30,
+    icon: "picons/pos/foodicons/fruit/redorange.png"
+  },
+
+  {
+    id: "$default",
+    category_id: lastId_category,
+    name: "Red Peach",
+    description: "Red Peach",
+    price: 3,
+    tax_rate_id: 1,
+    tax: 0.3,
+    price_with_tax: 3.30,
+    icon: "picons/pos/foodicons/fruit/redpeach.png"
+  },
+
+  {
+    id: "$default",
+    category_id: lastId_category,
+    name: "Strawberry",
+    description: "Strawberry",
+    price: 3,
+    tax_rate_id: 1,
+    tax: 0.3,
+    price_with_tax: 3.30,
+    icon: "picons/pos/foodicons/fruit/strawberry.png"
+  },
+
+  {
+    id: "$default",
+    category_id: lastId_category,
+    name: "Watermelon",
+    description: "Watermelon",
+    price: 3,
+    tax_rate_id: 1,
+    tax: 0.3,
+    price_with_tax: 3.30,
+    icon: "picons/pos/foodicons/fruit/watermelon.png"
+  },
+
+  {
+    id: "$default",
+    category_id: lastId_category,
+    name: "Yellow Grapes",
+    description: "Yellow Grapes",
+    price: 3,
+    tax_rate_id: 1,
+    tax: 0.3,
+    price_with_tax: 3.30,
+    icon: "picons/pos/foodicons/fruit/yellowgrapes.png"
+  },
+
+  {
+    id: "$default",
+    category_id: lastId_category,
+    name: "Yellow Peach",
+    description: "Yellow Peach",
+    price: 3,
+    tax_rate_id: 1,
+    tax: 0.3,
+    price_with_tax: 3.30,
+    icon: "picons/pos/foodicons/fruit/yellowpeach.png"
+  },
+  
+  {
+    id: "$default",
+    category_id: lastId_category,
+    name: "Yellow Watermelon",
+    description: "Yellow Watermelon",
+    price: 3,
+    tax_rate_id: 1,
+    tax: 0.3,
+    price_with_tax: 3.30,
+    icon: "picons/pos/foodicons/fruit/yellowwatermelon.png"
+  }
+
+]},
+
+{
+  category: [
+  {
+    id: "$default",
+    name: "COKE"
+  }
+  ],
+
+  product: [
+  {
+    id: "$default",
+    category_id: lastId_category,
+    name: "Coke-01",
+    description: "Coke-01",
+    price: 3,
+    tax_rate_id: 1,
+    tax: 0.3,
+    price_with_tax: 3.30,
+    icon: "picons/pos/foodicons/coke/Coca-Cola-0.png"
+  },
+
+  {
+    id: "$default",
+    category_id: lastId_category,
+    name: "Coke-02",
+    description: "Coke-02",
+    price: 3,
+    tax_rate_id: 1,
+    tax: 0.3,
+    price_with_tax: 3.30,
+    icon: "picons/pos/foodicons/coke/Coca-Cola-9.png"
+  },
+
+  {
+    id: "$default",
+    category_id: lastId_category,
+    name: "Coke-03",
+    description: "Coke-03",
+    price: 3,
+    tax_rate_id: 1,
+    tax: 0.3,
+    price_with_tax: 3.30,
+    icon: "picons/pos/foodicons/coke/Coca-Cola-4.png"
+  },
+
+  {
+    id: "$default",
+    category_id: lastId_category,
+    name: "Coke-04",
+    description: "Coke-04",
+    price: 3,
+    tax_rate_id: 1,
+    tax: 0.3,
+    price_with_tax: 3.30,
+    icon: "picons/pos/foodicons/coke/Coca-Cola-12.png"
+  },
+
+  {
+    id: "$default",
+    category_id: lastId_category,
+    name: "Coke-05",
+    description: "Coke-05",
+    price: 3,
+    tax_rate_id: 1,
+    tax: 0.3,
+    price_with_tax: 3.30,
+    icon: "picons/pos/foodicons/coke/Coca-Cola-19.png"
+  },
+
+  {
+    id: "$default",
+    category_id: lastId_category,
+    name: "Coke-06",
+    description: "Coke-06",
+    price: 3,
+    tax_rate_id: 1,
+    tax: 0.3,
+    price_with_tax: 3.30,
+    icon: "picons/pos/foodicons/coke/CocaCola-Zero-0.png"
+  },
+
+  {
+    id: "$default",
+    category_id: lastId_category,
+    name: "Coke-07",
+    description: "Coke-07",
+    price: 3,
+    tax_rate_id: 1,
+    tax: 0.3,
+    price_with_tax: 3.30,
+    icon: "picons/pos/foodicons/coke/CocaCola-Zero-2.png"
+  },
+
+  {
+    id: "$default",
+    category_id: lastId_category,
+    name: "Coke-08",
+    description: "Coke-08",
+    price: 3,
+    tax_rate_id: 1,
+    tax: 0.3,
+    price_with_tax: 3.30,
+    icon: "picons/pos/foodicons/coke/CocaCola-Zero-1.png"
+  },
+
+  {
+    id: "$default",
+    category_id: lastId_category,
+    name: "Coke-09",
+    description: "Coke-09",
+    price: 3,
+    tax_rate_id: 1,
+    tax: 0.3,
+    price_with_tax: 3.30,
+    icon: "picons/pos/foodicons/coke/CocaCola-Zero-3.png"
+  },
+
+  {
+    id: "$default",
+    category_id: lastId_category,
+    name: "Coke-10",
+    description: "Coke-10",
+    price: 3,
+    tax_rate_id: 1,
+    tax: 0.3,
+    price_with_tax: 3.30,
+    icon: "picons/pos/foodicons/coke/CocaCola-Zero-5.png"
+  },
+
+  {
+    id: "$default",
+    category_id: lastId_category,
+    name: "Coke-11",
+    description: "Coke-11",
+    price: 3,
+    tax_rate_id: 1,
+    tax: 0.3,
+    price_with_tax: 3.30,
+    icon: "picons/pos/foodicons/coke/Coke-Zero-0.png"
+  },
+
+  {
+    id: "$default",
+    category_id: lastId_category,
+    name: "Coke-12",
+    description: "Coke-12",
+    price: 3,
+    tax_rate_id: 1,
+    tax: 0.3,
+    price_with_tax: 3.30,
+    icon: "picons/pos/foodicons/coke/Coke-Zero-1.png"
+  },
+
+  {
+    id: "$default",
+    category_id: lastId_category,
+    name: "Coke-13",
+    description: "Coke-13",
+    price: 3,
+    tax_rate_id: 1,
+    tax: 0.3,
+    price_with_tax: 3.30,
+    icon: "picons/pos/foodicons/coke/Coke-Zero-3.png"
+  },
+
+  {
+    id: "$default",
+    category_id: lastId_category,
+    name: "Coke-14",
+    description: "Coke-14",
+    price: 3,
+    tax_rate_id: 1,
+    tax: 0.3,
+    price_with_tax: 3.30,
+    icon: "picons/pos/foodicons/coke/Coke-Zero-5.png"
+  },
+
+  {
+    id: "$default",
+    category_id: lastId_category,
+    name: "Coke-15",
+    description: "Coke-15",
+    price: 3,
+    tax_rate_id: 1,
+    tax: 0.3,
+    price_with_tax: 3.30,
+    icon: "picons/pos/foodicons/coke/Coke-Zero-4.png"
+  },
+
+  {
+    id: "$default",
+    category_id: lastId_category,
+    name: "Coke-",
+    description: "Coke",
+    price: 3,
+    tax_rate_id: 1,
+    tax: 0.3,
+    price_with_tax: 3.30,
+    icon: "picons/pos/foodicons/coke/Diet-Coke-0.png"
+  },
+
+  {
+    id: "$default",
+    category_id: lastId_category,
+    name: "Coke-16",
+    description: "Coke-16",
+    price: 3,
+    tax_rate_id: 1,
+    tax: 0.3,
+    price_with_tax: 3.30,
+    icon: "picons/pos/foodicons/coke/Diet-Coke-1.png"
+  },
+
+  {
+    id: "$default",
+    category_id: lastId_category,
+    name: "Coke-17",
+    description: "Coke-17",
+    price: 3,
+    tax_rate_id: 1,
+    tax: 0.3,
+    price_with_tax: 3.30,
+    icon: "picons/pos/foodicons/coke/Diet-Coke-2.png"
+  },
+
+  {
+    id: "$default",
+    category_id: lastId_category,
+    name: "Coke-18",
+    description: "Coke-18",
+    price: 3,
+    tax_rate_id: 1,
+    tax: 0.3,
+    price_with_tax: 3.30,
+    icon: "picons/pos/foodicons/coke/Diet-Coke-3.png"
+  },
+
+  {
+    id: "$default",
+    category_id: lastId_category,
+    name: "Coke-19",
+    description: "Coke-19",
+    price: 3,
+    tax_rate_id: 1,
+    tax: 0.3,
+    price_with_tax: 3.30,
+    icon: "picons/pos/foodicons/coke/Diet-Coke-5.png"
+  }
+ 
+]},
+
+{
+
+  category: [
+  {
+    id: "$default",
+    name: "BEER"
+  }
+  ],
+
+  product: [
+  {
+    id: "$default",
+    category_id: lastId_category,
+    name: "Budweiser",
+    description: "Budweiser",
+    price: 3,
+    tax_rate_id: 1,
+    tax: 0.3,
+    price_with_tax: 3.30,
+    icon: "picons/pos/foodicons/beer/budweiser.png"
+  },
+
+  {
+    id: "$default",
+    category_id: lastId_category,
+    name: "Coors",
+    description: "Coors",
+    price: 3,
+    tax_rate_id: 1,
+    tax: 0.3,
+    price_with_tax: 3.30,
+    icon: "picons/pos/foodicons/beer/coors.png"
+  },
+
+  {
+    id: "$default",
+    category_id: lastId_category,
+    name: "Corona",
+    description: "Corona",
+    price: 3,
+    tax_rate_id: 1,
+    tax: 0.3,
+    price_with_tax: 3.30,
+    icon: "picons/pos/foodicons/beer/corona.png"
+  },
+
+  {
+    id: "$default",
+    category_id: lastId_category,
+    name: "Heineken",
+    description: "Heineken",
+    price: 3,
+    tax_rate_id: 1,
+    tax: 0.3,
+    price_with_tax: 3.30,
+    icon: "picons/pos/foodicons/beer/heineken.png"
+  },
+
+  {
+    id: "$default",
+    category_id: lastId_category,
+    name: "Home 0.5",
+    description: "Home 0.5",
+    price: 3,
+    tax_rate_id: 1,
+    tax: 0.3,
+    price_with_tax: 3.30,
+    icon: "picons/pos/foodicons/beer/beer.png"
+  },
+
+  {
+    id: "$default",
+    category_id: lastId_category,
+    name: "Michelob",
+    description: "Michelob",
+    price: 3,
+    tax_rate_id: 1,
+    tax: 0.3,
+    price_with_tax: 3.30,
+    icon: "picons/pos/foodicons/beer/michelob.png"
+  },
+
+  {
+    id: "$default",
+    category_id: lastId_category,
+    name: "Miller",
+    description: "Miller",
+    price: 3,
+    tax_rate_id: 1,
+    tax: 0.3,
+    price_with_tax: 3.30,
+    icon: "picons/pos/foodicons/beer/miller.png"
+  }
+
+]}
+
+]

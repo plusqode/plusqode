@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<plusqode>
+  
+  <view type="table" name="document_item_table" model="document_item">
+    <field name="quantity"/>
+    <field name="name"/>
+    <field name="price"/>
+    <field name="discount_rate"/>
+    <field name="price_with_discount"/>
+    <field name="tax_rate_id.value" label="Tax Rate"/>
+    <field name="price_with_discount_and_tax"/>
+    <field name="total_with_discount"/>
+  </view>
+
+  <view type="form" name="document_item_form" model="document_item">
+      <layout name="header">
+          <label label="user" alignment="center" icon="picons/core/models/phone.png" size="(96, 96)" newline="false" hs="(0, 0)"/>
+          <label label="user" alignment="center" icon="picons/core/models/computer.png" size="(96, 96)" newline="false" hs="(0, 0)"/>
+      </layout>
+
+      <layout>
+          <separator/>
+      </layout>
+
+      <layout>
+          <field name="product_id"/>
+          <field name="name"/>
+      </layout>
+      <layout>
+          <layout newline="false">
+              <field name="quantity"/>
+              <field name="price"/>
+              <field name="discount_rate"/>
+              <field name="price_with_discount"/>
+              <field name="amount_with_discount"/>
+          </layout>
+          <layout newline="false">
+          </layout>
+          <group label="Tax" checked="false">
+              <field name="tax_rate_id"/>
+              <field name="price_with_tax"/>
+              <field name="price_with_discount_and_tax"/>
+              <field name="total_with_discount"/>
+          </group>
+      </layout>
+      
+      <layout>
+          <separator/>
+      </layout>
+
+      <tab name="tab">
+          <panel name="Details">
+              <layout newline="false">
+                  <field name="discount_rate"/>
+                  <field name="discount_value"/>
+                  <field name="price_with_discount"/>
+                  <field name="amount_with_discount"/>
+              </layout>
+              <layout newline="false">
+                  <field name="tax_rate_id"/>
+                  <field name="tax_value"/>
+                  <field name="price_with_tax"/>
+                  <field name="total"/>
+              </layout>
+          </panel>
+          
+          <panel name="Discount">
+              <field name="discount_rate"/>
+              <field name="discount_value"/>
+              <field name="discount_value_with_tax"/>
+              <field name="price_with_discount"/>
+              <field name="price_with_discount_and_tax"/>
+              <field name="amount_with_discount"/>
+              <field name="discount_total"/>
+              <field name="total_with_discount"/>
+          </panel>
+
+          <panel name="Tax">
+              <field name="quantity"/>
+              <field name="price"/>
+              <field name="tax_rate_id"/>
+              <field name="amount"/>
+
+              <field name="tax_value"/>
+              <field name="price_with_tax"/>
+              <field name="tax_total"/>
+              <field name="total"/>
+          </panel>
+      </tab>
+
+  </view>
+  
+  
+  <view type="pos" name="document_item_pos" model="document_item">
+    <field name="quantity"/>
+    <field name="name"/>
+    <field name="description"/>
+    <field name="tax_total"/>
+    <field name="amount"/>
+    <field name="total"/>
+    <field name="tax_rate_id.department"/>
+  </view>
+
+
+</plusqode>
+

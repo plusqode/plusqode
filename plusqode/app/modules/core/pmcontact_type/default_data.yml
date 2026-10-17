@@ -1,0 +1,16 @@
+{
+contact_type: [
+  {
+    id: "$default",
+    name: "Admin"
+  },
+  {
+    id: "$default",
+    name: "Supplier"
+  },
+  {
+    id: "$default",
+    name: "Customer"
+  }
+]
+}

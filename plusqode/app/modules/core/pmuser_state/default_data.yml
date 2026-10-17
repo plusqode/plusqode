@@ -1,0 +1,15 @@
+{
+user_state: [
+  {
+    id: "$default",
+    name: "enabled",
+    icon_id: 7
+  },
+  {
+    id: "$default",
+    name: "disabled",
+    icon_id: 8
+  }
+]
+}
+

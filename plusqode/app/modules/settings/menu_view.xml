@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<plusqode>
+    
+    <module name="SETTINGS" position="90" 
+        icon="picons/core/actions-128/settings.png" 
+        mainIcon="picons/core/actions-128/settings.png" iconSize="(256, 256)"
+        author="{name: 'PlusQode Industry', address: 'PlusQode Address'}"
+        description="General Settings"
+    />
+
+    <menuitem name="Settings" ref="{modelName: 'setting'}"/>
+    <menuitem name="Profiles" ref="{modelName: 'profile'}"/>
+    <menuitem name="Users" ref="{modelName: 'user_manager'}" icon="picons/pos/customer/user.png"/>
+    <menuitem name="Plus4Log" ref="{modelName: 'plus4_log'}" icon="picons/core/models/plus4log.png"/>
+
+</plusqode>
+

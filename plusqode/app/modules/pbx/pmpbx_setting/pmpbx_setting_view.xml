@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='utf-8'?>
+<plusqode>
+
+  <view type='table' name='pbx_setting_table' model='pbx_setting' show_filter_panel='false'>
+      <field name='name'/>
+  </view>
+
+  <view type='form' name='pbx_setting_form' model='pbx_setting'>
+
+      <layout>
+          <label label='user' alignment='center' icon='picons/core/actions/settings.png' size='(128, 128)' newline='false' hs='(50, 0)'/>
+          <label label='user' alignment='center' icon='picons/core/actions/settings.png' size='(128, 128)' newline='false' hs='(150, 0)'/>
+          <label label='user' alignment='center' icon='picons/core/actions/settings.png' size='(128, 128)' newline='false' hs='(200, 0)'/>
+      </layout>
+
+      <layout>
+          <separator height='5'/>
+      </layout>
+
+      <tab name='tab'>
+          <panel name='http.conf'>
+              <field name='http' label='false'/>
+          </panel>
+
+          <panel name='extensions.conf'>
+              <field name='extensions' label='false'/>
+          </panel>
+
+          <panel name='pjsip.conf'>
+              <field name='pjsip' label='false'/>
+          </panel>
+
+          <panel name='queues.conf'>
+              <field name='queues' label='false'/>
+          </panel>
+
+      </tab>
+
+  </view>
+
+
+</plusqode>

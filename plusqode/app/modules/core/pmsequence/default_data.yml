@@ -1,0 +1,125 @@
+{
+sequence: [
+  {
+    id: "$default",
+    name: "Purchase Invoice",
+    value: 0,
+    length: 4,
+    fill_char: "0",
+    mask: "PI-yyyy-#"
+  },
+  {
+    id: "$default",
+    name: "Sale Invoice",
+    value: 0,
+    length: 4,
+    fill_char: "0",
+    mask: "SI-yyyy-#"
+  },
+  {
+    id: "$default",
+    name: "Purchase Credit Note",
+    value: 0,
+    length: 4,
+    fill_char: "0",
+    mask: "PCN-yyyy-#"
+  },
+  {
+    id: "$default",
+    name: "Sale Credit Note",
+    value: 0,
+    length: 4,
+    fill_char: "0",
+    mask: "SCN-yyyy-#"
+  },
+  {
+    id: "$default",
+    name: "Purchase Quotation",
+    value: 0,
+    length: 4,
+    fill_char: "0",
+    mask: "PQ-yyyy-#"
+  },
+  {
+    id: "$default",
+    name: "Sale Quotation",
+    value: 0,
+    length: 4,
+    fill_char: "0",
+    mask: "SQ-yyyy-#"
+  },
+  {
+    id: "$default",
+    name: "Purchase Order",
+    value: 0,
+    length: 4,
+    fill_char: "0",
+    mask: "PO-yyyy-#"
+  },
+  {
+    id: "$default",
+    name: "Sale Order",
+    value: 0,
+    length: 4,
+    fill_char: "0",
+    mask: "SO-yyyy-#"
+  },
+  {
+    id: "$default",
+    name: "Purchase Removed",
+    value: 0,
+    length: 4,
+    fill_char: "0",
+    mask: "PR-yyyy-#"
+  },
+  {
+    id: "$default",
+    name: "Sale Removed",
+    value: 0,
+    length: 4,
+    fill_char: "0",
+    mask: "SR-yyyy-#"
+  },
+  {
+    id: "$default",
+    name: "Pos Document",
+    value: 0,
+    length: 3,
+    fill_char: "0",
+    mask: "#"
+  },
+  {
+    id: "$default",
+    name: "Pos Order",
+    value: 0,
+    length: 3,
+    fill_char: "0",
+    mask: "#"
+  },
+  {
+    id: "$default",
+    name: "Pos Prefiscal",
+    value: 0,
+    length: 3,
+    fill_char: "0",
+    mask: "#"
+  },
+  {
+    id: "$default",
+    name: "Pos Fiscal",
+    value: 0,
+    length: 3,
+    fill_char: "0",
+    mask: "#"
+  },
+  {
+    id: "$default",
+    name: "Pos Invoice",
+    value: 0,
+    length: 3,
+    fill_char: "0",
+    mask: "POSI-yyyy-#"
+  }
+]
+}
+

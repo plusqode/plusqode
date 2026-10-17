@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<plusqode>
+  
+  <view type="table" name="sale_credit_note_table" model="sale_credit_note">
+      <partial ptr="core.pmdocument.pmdocument_view:table"/>
+  </view>
+
+  <view type="form" name="sale_credit_note_form" model="sale_invoice">
+      <partial ptr="core.pmdocument.pmdocument_view:form"/>
+      <panel name="Categories" overload="remove"/>
+  </view>
+
+</plusqode>
+

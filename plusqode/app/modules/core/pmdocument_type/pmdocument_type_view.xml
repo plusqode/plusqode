@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<plusqode>
+  
+  <view type="table" name="document_state_table" model="document_state">
+    <field name="name"/>
+    <field name="sequence_id.name"/>
+    <field name="document_attrs_id.name"/>
+    <field name="print_button"/>
+  </view>
+
+  <view type="form" name="document_state_form" model="document_state">
+
+      <layout>
+          <label label="settings" alignment="center" icon="picons/core/actions/settings.png" size="(100, 100)" newline="false" hs="(0, 0)"/>
+          <label label="settings" alignment="center" icon="picons/core/actions/settings.png" size="(100, 100)" newline="false" hs="(0, 0)"/>
+          <label label="settings" alignment="center" icon="picons/core/actions/settings.png" size="(100, 100)" hs="(0, 0)"/>
+      </layout>
+      <layout>
+          <separator/>
+      </layout>
+
+      <layout minimumWidth="300">
+          <field name="name" main="true"/>
+      </layout>
+
+      <layout>
+          <field name="sequence_id"/>
+          <field name="document_attrs_id"/>
+          <field name="print_button"/>
+      </layout>
+  </view>
+
+
+
+</plusqode>
+

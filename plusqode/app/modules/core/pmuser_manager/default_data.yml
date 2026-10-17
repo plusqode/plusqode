@@ -1,0 +1,30 @@
+{
+user_manager: [
+  {
+    id: "$default",
+    username: "Admin",
+    name: "User One",
+    password: "admin",
+    icon: "picons/pos/customer/user.png",
+    profile_id: 1,
+    user_state_id: 1
+  },
+  {
+    id: "$default",
+    username: "Manager",
+    name: "User Two",
+    password: "plusqode",
+    profile_id: 2,
+    user_state_id: 2 
+  },
+  {
+    id: "$default",
+    username: "Guest",
+    name: "User Three",
+    password: "",
+    profile_id: 3,
+    user_state_id: 1 
+  }
+]
+}
+

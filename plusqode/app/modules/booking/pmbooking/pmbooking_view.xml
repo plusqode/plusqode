@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='utf-8'?>
+<plusqode>
+
+  <view type='table' name='booking_table' model='booking' show_filter_panel='false'>
+          <field name='name'/>
+          <field name='date'/>
+          <field name='time'/>
+          <field name='mobile'/>
+          <field name='guests'/>
+  </view>
+
+  <view type='form' name='booking_form' model='booking'>
+
+      <layout>
+          <label label='user' alignment='center' icon='picons/core/models/booking.png' size='(128, 128)' newline='false' hs='(50, 0)'/>
+          <label label='user' alignment='center' icon='picons/core/models/booking.png' size='(128, 128)' newline='false' hs='(150, 0)'/>
+          <label label='user' alignment='center' icon='picons/core/models/booking.png' size='(128, 128)' newline='false' hs='(200, 0)'/>
+      </layout>
+
+      <layout>
+          <separator height='5'/>
+      </layout>
+
+      <layout>
+          <field name='name'/>
+          <field name='date'/>
+          <field name='time'/>
+          <field name='mobile'/>
+          <field name='guests'/>
+      </layout>
+
+      <layout>
+          <separator/>
+      </layout>
+
+      <tab name='tab'>
+          <panel name='Note'>
+              <field name='note' label='false'/>
+          </panel>
+          <panel name='Summary'>
+              <field name='note' label='false'/>
+          </panel>
+      </tab>
+
+  </view>
+
+
+</plusqode>

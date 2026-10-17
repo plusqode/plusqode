@@ -1,0 +1,27 @@
+<RCC>
+    <qresource prefix="/">
+        <file>picons/core/actions/left.png</file>
+        <file>picons/core/actions/right.png</file>
+        <file>picons/core/actions/up.png</file>
+        <file>picons/core/actions/down.png</file>
+        <file>picons/core/actions/new.png</file>
+        <file>picons/core/actions/edit.png</file>
+        <file>picons/core/actions/delete.png</file>
+        <file>picons/core/actions/duplicate.png</file>
+        <file>picons/core/actions/reload.png</file>
+        <file>picons/core/actions/print.png</file>
+        <file>picons/core/actions/exit.png</file>
+        <file>picons/core/views/form-view.png</file>
+        <file>picons/core/views/icon-view.png</file>
+        <file>picons/core/views/table-view.png</file>
+        <file>picons/widgets/dashboard/dashboard-3d.png</file>
+        <file>picons/widgets/dashboard/dashboard-gt.png</file>
+        <file>picons/widgets/dashboard/dashboard-spider.png</file>
+        <file>picons/widgets/dashboard/dashboard-sprint.png</file>
+        <file>picons/widgets/dashboard/dashboard-turbo.png</file>
+        <file>picons/widgets/dashboard/dashboard-vintage.png</file>
+        <file>picons/widgets/progress-bar/lion.png</file>
+        <file>picons/widgets/progress-bar/mac.png</file>
+        <file>picons/core/actions/ok.png</file>
+    </qresource>
+</RCC>

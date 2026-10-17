@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<plusqode>
+    
+    <module name="NEW_MODULE" position="20" 
+        icon="picons/core/actions-128/under-construction.png" 
+        mainIcon="picons/core/actions-128/under-construction.png" iconSize="(256, 256)"
+        author="{name: 'PlusQode', address: 'Times Square, New York, +39 123.45.67'}"
+        description="This module ..."
+    />
+
+    <depends modules=""/>
+
+    <menuitem name="NewModel"  ref="{modelName: 'new_model'}"/>
+
+    <menusection name="SETTINGS" icon="picons/core/actions/settings.png">
+        <menuitem name="Contacts"  ref="{modelName: 'new_model'}"/>
+    </menusection>
+
+<menuitem_place_holder/>
+
+</plusqode>
+

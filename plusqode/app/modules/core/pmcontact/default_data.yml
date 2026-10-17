@@ -1,0 +1,57 @@
+{
+contact: [
+  {
+    id: "$default",
+    contact_type: 'company',
+    contact_type_id: 1,
+    name: "PlusQode Industries",
+    contact_name: "Warren",
+    contact_surname: "Profit",
+    delivery_address_id: 1,  
+    billing_address_id: 2  
+  },
+  {
+    id: "$default",
+    contact_type: 'customer',
+    contact_type_id: 2,
+    name: "WIEN LTD",
+    contact_name: "Mario",
+    contact_surname: "Rossi",
+    delivery_address_id: 3,  
+    billing_address_id: 3  
+  },
+  {
+    id: "$default",
+    contact_type: 'customer',
+    contact_type_id: 3,
+    name: "VERDI SRL",
+    contact_name: "Giuseppe",
+    contact_surname: "Verdi"
+  },
+  {
+    id: "$default",
+    contact_type: 'supplier',
+    contact_type_id: 4,
+    name: "BIANCHI SPA",
+    contact_name: "Valerio",
+    contact_surname: "Bianchi"
+  },
+  {
+    id: "$default",
+    contact_type: 'supplier',
+    contact_type_id: 5,
+    name: "Laura Neri SAS",
+    contact_name: "Laura",
+    contact_surname: "Neri"
+  },
+  {
+    id: "$default",
+    contact_type: 'supplier',
+    contact_type_id: 6,
+    name: "Ugo Viola SNC",
+    contact_name: "Ugo",
+    contact_surname: "Viola"
+  }
+]
+}
+

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<plusqode>
+    
+  <view type="table" name="backup_table" model="backup">
+    <field name="name"/>
+  </view>
+
+  <view type="form" name="backup_form" model="backup" pagination="false">
+
+      <layout>
+          <field name="backup_button" label="false" newline="false"/>
+          <field name="restore_button" label="false"/>
+      </layout>
+  </view>
+
+
+  <view type="views" value="[form]"/>
+
+</plusqode>
+

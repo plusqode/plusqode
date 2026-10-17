@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<plusqode>
+  
+  <view type="table" name="profile_model_table" model="profile_model">
+      <field name="model_name"/>
+      <field name="menu"/>
+      <field name="up_record"/>
+      <field name="down_record"/>
+      <field name="new_record"/>
+      <field name="edit_record"/>
+      <field name="new_record"/>
+      <field name="edit_record"/>
+      <field name="delete_record"/>
+      <field name="print_record"/>
+  </view>
+
+  <view type="form" name="profile_model_form" model="profile_model">
+      <layout name="header">
+          <label label="user" alignment="center" icon="picons/core/actions/warning.png" size="(96, 96)" newline="false" hs="(0, 0)"/>
+          <label label="user" alignment="center" icon="picons/core/actions/forbidden.png" size="(96, 96)" newline="false" hs="(0, 0)"/>
+      </layout>
+
+      <layout>
+          <separator/>
+      </layout>
+      
+      <layout arrangement="vertical">
+          <field name="model_name"/>
+      </layout>
+      
+      <layout>
+          <separator/>
+      </layout>
+      
+      <layout>
+
+          <layout newline="false" minimumWidth="150">
+              <field name="new_record"/>
+              <field name="edit_record"/>
+              <field name="delete_record"/>
+              <field name="print_record"/>
+          </layout>
+          
+          <layout newline="false">
+              <vseparator width="10"/>
+          </layout>
+
+          <layout minimumWidth="200">
+              <field name="up_record"/>
+              <field name="down_record"/>
+              <separator label="false"/>
+              <field name="menu"/>
+          </layout>
+
+      </layout>
+      
+      <tab>
+          <panel name="Widget Profile">
+              <field name="profile_model_widget_table"/>
+          </panel>
+      </tab>
+
+      <layout>
+          <separator/>
+      </layout>
+
+  </view>
+
+
+</plusqode>
+

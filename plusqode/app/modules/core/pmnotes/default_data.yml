@@ -1,0 +1,17 @@
+{
+notes: [
+  {
+    id: "$default",
+    name: "Payment on Invoice"
+  },
+  {
+    id: "$default",
+    name: "50% payment on invoice, due within 30 days via ceck"
+  },
+  {
+    id: "$default",
+    name: "Payment due within 30 days via ceck"
+  }
+]
+}
+

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<plusqode>
+  
+    <view type="form" name="pos_document_type_form" model="pos_document_type">
+
+        <layout>
+            <label label="settings" alignment="center" icon="picons/core/actions/settings.png" size="(100, 100)" newline="false" hs="(0, 0)"/>
+            <label label="settings" alignment="center" icon="picons/core/actions/settings.png" size="(100, 100)" newline="false" hs="(0, 0)"/>
+            <label label="settings" alignment="center" icon="picons/core/actions/settings.png" size="(100, 100)" hs="(0, 0)"/>
+        </layout>
+
+        <layout>
+            <separator/>
+        </layout>
+
+        <layout>
+
+            <layout alignment="right" newline="false">
+                <field name="name"/>
+                <field name="row"/>
+                <field name="col"/>
+                <field name="print_type"/>
+                <field name="char_size"/>
+                <field name="copy_number"/>
+                <field name="style"/>
+                <field name="top_margin"/>
+                <field name="quantity_field_width"/>
+                <field name="price_field_width"/>
+                <field name="total_price_field_width"/>
+                <field name="paper_width"/>
+                <field name="paper_rows"/>
+                <field name="header"/>
+                <field name="footer"/>
+            </layout>
+
+            <layout minimumWidth="20" newline="false"/>
+
+            <layout minimumWidth="200">
+                <field name="print_geometry" fieldType="switch_edit"/>
+                <field name="print_header" fieldType="switch_edit"/>
+                <field name="print_footer" fieldType="switch_edit"/>
+                <field name="print_logo" fieldType="switch_edit"/>
+                <field name="print_company" fieldType="switch_edit"/>
+                <field name="print_date" fieldType="switch_edit"/>
+                <field name="print_time" fieldType="switch_edit"/>
+                <field name="print_serial" fieldType="switch_edit"/>
+                <field name="print_user" fieldType="switch_edit"/>
+
+                <field name="print_customer" fieldType="switch_edit"/>
+                <field name="print_name" fieldType="switch_edit"/>
+                <field name="print_contact_surname" fieldType="switch_edit"/>
+                <field name="print_contact_name" fieldType="switch_edit"/>
+                <field name="print_billing_address" fieldType="switch_edit"/>
+                <field name="print_delivery_address" fieldType="switch_edit"/>
+                <field name="print_phone" fieldType="switch_edit"/>
+                <field name="print_mobile" fieldType="switch_edit"/>
+                <field name="print_vat_number" fieldType="switch_edit"/>
+                <field name="print_fiscal_code" fieldType="switch_edit"/>
+                <field name="print_note" fieldType="switch_edit"/>
+                <field name="open_cash_drawer" fieldType="switch_edit"/>
+            </layout>
+        </layout>
+
+        <layout>
+            <separator/>
+        </layout>
+
+    </view>
+
+</plusqode>
+

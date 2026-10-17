@@ -1,0 +1,21 @@
+{
+profile: [
+  {
+    id: "$default",
+    name: "admin"
+  },
+  {
+    id: "$default",
+    name: "manager"
+  },
+  {
+    id: "$default",
+    name: "user"
+  },
+  {
+    id: "$default",
+    name: "guest"
+  }
+]
+}
+

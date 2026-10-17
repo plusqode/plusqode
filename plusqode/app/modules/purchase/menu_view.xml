@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<plusqode>
+    
+    <module name="PURCHASE" position="20" 
+        icon="picons/core/models/purchase.png" 
+        mainIcon="picons/models/purchase.png" iconSize="(256, 256)"
+        author="{name: 'PlusQode', address: 'Via Nino Arcidiacono 49/A,95018 Riposto(CT)'}"
+        description="Purchase Manager"
+    />
+
+    <menuitem name="Suppliers"  ref="{modelName: 'contact', domain: {contact_type_id.name: 'Supplier'}}"/>
+    <menuitem name="Quotations"  ref="{modelName: 'purchase_quotation'}"/>
+    <menuitem name="Orders"  ref="{modelName: 'purchase_order'}"/>
+    <menuitem name="Invoices"  ref="{modelName: 'purchase_invoice'}"/>
+    <menuitem name="Credit Notes"  ref="{modelName: 'purchase_credit_note'}"/>
+    <menuitem name="Removed"  ref="{modelName: 'purchase_removed'}"/>
+
+</plusqode>
+

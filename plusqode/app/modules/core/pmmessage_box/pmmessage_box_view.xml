@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<plusqode>
+  
+  <view type="table" name="message_box_table" model="message_box">
+      <field name="name"/>
+  </view>
+
+  <view type="form" name="message_box_form" model="message_box">
+      
+      <layout name="header" alignment="center">
+            <label name="header"/>
+      </layout>
+      
+      <layout>
+          <separator/>
+      </layout>
+
+      <layout name="message" alignment="center">
+        <label name="message"/>
+      </layout>
+  
+      <layout>
+          <separator/>
+      </layout>
+
+  </view>
+
+
+</plusqode>
+

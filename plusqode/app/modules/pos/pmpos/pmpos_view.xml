@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<plusqode>
+
+    <view type="tab" name="pos_tab" model="pos" subModelName='pos_document_table' subViewType='icon' showControlPanel="true"/>
+  
+    <view type="icon" gridSize="(128, 128)" iconSize="(96, 96)"/>
+
+    <view type="views" value="[tab, icon, table]"/>
+
+</plusqode>
+

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<plusqode>
+    
+    <module name="Accounting" position="20" 
+        icon="picons/core/models/money.png" 
+        mainIcon="picons/core/models/money.png" iconSize="(256, 256)"
+        author="{name: 'PlusQode', address: 'Via Nino Arcidiacono 49/A,95018 Riposto(CT)'}"
+        description="Accounting Manager"
+    />
+
+    <menuitem name="Documents" ref="{modelName: 'document'}"/>
+    <menuitem name="Payments" ref="{modelName: 'payment'}"/>
+    <menuitem name="Transactions" ref="{modelName: 'transaction'}"/>
+
+    <menusection name="SETTINGS" icon="picons/core/actions/settings.png">
+        <menuitem name="Document State" ref="{modelName: 'document_state'}"/>
+        <menuitem name="Document Type" ref="{modelName: 'document_type'}"/>
+    </menusection>
+
+
+</plusqode>
+

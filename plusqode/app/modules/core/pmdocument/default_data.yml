@@ -1,0 +1,17 @@
+{
+document: [
+  {
+    id: "$default",
+    serial: "01-2022"
+  },
+  {
+    id: "$default",
+    serial: "02-2022"
+  },
+  {
+    id: "$default",
+    serial: "03-2022"
+  }
+]
+}
+

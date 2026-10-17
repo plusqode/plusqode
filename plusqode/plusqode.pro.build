@@ -1,0 +1,25 @@
+include(plusqode.pro)
+HHEADERS = $$HEADERS
+HSOURCES = $$SOURCES
+
+FILES = $$HEADERS $$SOURCES
+for(s, FILES): system($$(QT_PATH)/bin/pmake -plusqode $$s)
+
+HEADERS =
+plusqodeheaders.input = HHEADERS
+plusqodeheaders.commands = $$(QT_PATH)/bin/pmake -plusqode ${QMAKE_FILE_IN}
+plusqodeheaders.output = moc_plusqode/${QMAKE_FILE_IN}
+plusqodeheaders.variable_out =
+plusqodeheaders.CONFIG += target_predeps
+QMAKE_EXTRA_COMPILERS += plusqodeheaders
+for(f, HHEADERS): HEADERS += moc_plusqode/$$f
+
+SOURCES =
+plusqodesources.input = HSOURCES
+plusqodesources.commands = $$(QT_PATH)/bin/pmake -plusqode ${QMAKE_FILE_IN}
+plusqodesources.output = moc_plusqode/${QMAKE_FILE_IN}
+plusqodesources.variable_out =
+plusqodesources.CONFIG += target_predeps
+QMAKE_EXTRA_COMPILERS += plusqodesources
+for(f, HSOURCES): SOURCES += moc_plusqode/$$f
+

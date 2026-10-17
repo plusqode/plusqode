@@ -1,0 +1,72 @@
+<?xml version='1.0' encoding='utf-8'?>
+<plusqode>
+
+  <view type='table' name='database_import_table' model='database_import' show_filter_panel='false'>
+      <field name='name'/>
+      <field name='source_database_connection_id.name'/>
+      <field name='dest_database_connection_id.name'/>
+  </view>
+
+  <view type='form' name='database_import_form' model='database_import'>
+
+    <layout minimumWidth="640" minimumHeight="600">
+
+      <layout>
+          <label label='user' alignment='center' icon='picons/core/models/database.png' size='(128, 128)' newline='false' hs='(50, 0)'/>
+          <label label='user' alignment='center' icon='picons/core/models/database.png' size='(128, 128)' newline='false' hs='(150, 0)'/>
+          <label label='user' alignment='center' icon='picons/core/models/database.png' size='(128, 128)' newline='false' hs='(200, 0)'/>
+      </layout>
+
+      <layout>
+          <separator height='5'/>
+      </layout>
+
+      <layout>
+          <field name='name'/>
+          <field name='source_database_connection_id'/>
+          <field name='dest_database_connection_id'/>
+      </layout>
+
+      <layout>
+          <separator/>
+      </layout>
+
+      <tab name='tab'>
+          <panel name='Table Map'>
+              <field name='database_import_table_map_table'/>
+          </panel>
+      </tab>
+
+    </layout>
+
+  </view>
+
+
+    <view type="controlpanel">
+        <layout name="control-panel">
+            <menusection newline="false" spacing="0" maximumWidth="70">
+                <menuitem name="Up"  action="up" icon=":/picons/core/actions/up.png" newline="true"/>
+                <menuitem name="Down"  action="down" icon=":/picons/core/actions/down.png"/>
+            </menusection>
+            <menusection  newline="false">
+                <menuitem name="New"  action="new" icon=":/picons/core/actions/new.png"
+                          toolTip="New Row"
+                          minimumHeight="60" maximumWidth="70"/>
+                <menuitem name="Edit"  action="edit" icon=":/picons/core/actions/edit.png"
+                          toolTip="Edit Row"
+                          minimumHeight="60" maximumWidth="70"/>
+                <menuitem name="Delete"  action="delete" askConfirm="Do You Want to Delete ?"
+                          icon="{name: ':/picons/core/actions/delete.png', hue: 330}"
+                          toolTip="Delete Row"
+                          minimumHeight="60" maximumWidth="70"/>
+                <menuitem name="Import" action="import" askConfirm="Do You Want to Import ?"
+                          icon="{name: 'picons/core/actions-128/db-import.png'}"
+                          toolTip="Delete Row"
+                          minimumHeight="60" maximumWidth="70"/>
+            </menusection>
+            <menusection/> <!-- it needs as horizontal spacer -->
+        </layout>
+    </view>
+
+
+</plusqode>

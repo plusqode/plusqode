@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<plusqode>
+  
+  <view type="table" name="database_authentication_table" model="database_authentication">
+      <field name="name"/>
+  </view>
+
+  <view type="form" name="database_authentication_form" model="database_authentication">
+      
+      <layout>
+          <label name="logo" label="database" alignment="center" icon="app/modules/database_manager/pmdatabase_authentication/postgresql.png"/>
+      </layout>
+      
+      <layout>
+          <separator/>
+      </layout>
+
+      <layout>
+          <field name="password" arrangement="vertical"/>
+      </layout>
+      
+      <layout>
+          <separator/>
+      </layout>
+
+  </view>
+
+
+</plusqode>
+

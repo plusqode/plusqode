@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<plusqode>
+  
+  <view type="table" name="transaction_table" model="category">
+      <field name="amount"/>
+      <field name="date"/>
+      <field name="opcode"/>
+      <field name="transaction_type"/>
+      <field name="description"/>
+      <field name="description2"/>
+      <field name="description3"/>
+      <field name="reason"/>
+      <field name="charges"/>
+      <field name="cro"/>
+      <field name="contact"/>
+      <field name="check_number"/>
+      <field name="hide"/>
+      <field name="balance"/>
+      <field name="balance"/>
+  </view>
+
+  <view type="form" name="transaction_form" model="category">
+      
+      <layout>
+          <label label="user" alignment="center" icon="picons/core/models/money.png" size="(128, 128)" newline="false" hs="(50, 0)"/>
+          <label label="user" alignment="center" icon="picons/core/models/money.png" size="(128, 128)" newline="false" hs="(150, 0)"/>
+          <label label="user" alignment="center" icon="picons/core/models/money.png" size="(128, 128)" newline="false" hs="(200, 0)"/>
+      </layout>
+      
+      <layout>
+          <separator height="5"/>
+      </layout>
+
+      <layout minimumWidth="600">
+          <field name="amount" main="true" newline="false"/>
+          <field name="date" main="true"/>
+          <field name="opcode" newline="false"/>
+          <field name="transaction_type"/>
+          <field name="check_number" newline="false"/>
+          <field name="hide" fieldType="switch_edit"/>
+          <field name="charges" newline="false"/>
+          <field name="balance"/>
+      </layout>
+
+      <layout>
+          <separator/>
+      </layout>
+     
+      <layout name="cro">
+          <field name="reason"/>
+          <field name="cro"/>
+          <field name="contact"/>
+      </layout>
+      
+      <layout>
+          <separator/>
+      </layout>
+      
+      <tab name="tab">
+          <panel name="Descriptions">
+              <field name="description" arrangement="vertical"/>
+              <field name="description2" arrangement="vertical"/>
+              <field name="description3" arrangement="vertical"/>
+              <field name="description4" arrangement="vertical"/>
+          </panel>
+          
+          <panel name="Payments">
+              <field name="payment_table"/>
+          </panel>
+      </tab>
+
+  </view>
+
+
+</plusqode>
+

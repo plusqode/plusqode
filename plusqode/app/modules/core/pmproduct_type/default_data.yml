@@ -1,0 +1,15 @@
+{
+
+product_type: [
+  {name: "good"},
+  {name: "service"},
+  {name: "digital"},
+  {name: "bundle"},
+  {name: "modifier"},
+  {name: "raw material"}
+
+]
+}
+
+
+

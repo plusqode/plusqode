@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='utf-8'?>
+<plusqode>
+
+  <view type='table' name='plus4_log_table' model='plus4_log' show_filter_panel='false'>
+      <field name='timestamp'/>
+      <field name='user_name'/>
+      <field name='action'/>
+      <field name='model_name'/>
+      <field name='id_value'/>
+  </view>
+
+  <view type='form' name='plus4_log_form' model='plus4_log'>
+
+      <layout>
+          <label label='user' alignment='center' icon='picons/core/models/plus4log.png' size='(128, 128)' newline='false' hs='(50, 0)'/>
+          <label label='user' alignment='center' icon='picons/core/models/plus4log.png' size='(128, 128)' newline='false' hs='(150, 0)'/>
+          <label label='user' alignment='center' icon='picons/core/models/plus4log.png' size='(128, 128)' newline='false' hs='(200, 0)'/>
+      </layout>
+
+      <layout>
+          <separator height='5'/>
+      </layout>
+
+      <layout>
+          <field name='timestamp'/>
+          <field name='user_name'/>
+          <field name='action'/>
+          <field name='model_name'/>
+          <field name='id_value'/>
+      </layout>
+
+      <layout>
+          <separator/>
+      </layout>
+
+  </view>
+
+
+</plusqode>

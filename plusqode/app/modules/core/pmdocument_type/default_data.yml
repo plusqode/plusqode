@@ -1,0 +1,98 @@
+{
+document_type: [
+  {
+    id: "$default",
+    name: "Purchase Invoice",
+    sequence_id: 1,
+    document_attrs_id: 1
+  },
+  {
+    id: "$default",
+    name: "Sale Invoice",
+    sequence_id: 2,
+    document_attrs_id: 2
+  },
+  {
+    id: "$default",
+    name: "Purchase Credit Note",
+    sequence_id: 3,
+    document_attrs_id: 3
+  },
+  {
+    id: "$default",
+    name: "Sale Credit Note",
+    sequence_id: 4,
+    document_attrs_id: 4
+  },
+  {
+    id: "$default",
+    name: "Purchase Quotation",
+    sequence_id: 5,
+    document_attrs_id: 5
+  },
+  {
+    id: "$default",
+    name: "Sale Quotation",
+    sequence_id: 6,
+    document_attrs_id: 6
+  },
+  {
+    id: "$default",
+    name: "Purchase Order",
+    sequence_id: 7,
+    document_attrs_id: 7
+  },
+  {
+    id: "$default",
+    name: "Sale Order",
+    sequence_id: 8,
+    document_attrs_id: 8
+  },
+  {
+    id: "$default",
+    name: "Purchase Removed",
+    sequence_id: 9,
+    document_attrs_id: 9
+  },
+  {
+    id: "$default",
+    name: "Sale Removed",
+    sequence_id: 10,
+    document_attrs_id: 10
+  },
+  {
+    id: "$default",
+    name: "Pos Document",
+    sequence_id: 11,
+    document_attrs_id: 11
+  },
+  {
+    id: "$default",
+    name: "Pos Order",
+    sequence_id: 12,
+    document_attrs_id: 12
+  },
+  {
+    id: "$default",
+    name: "Pos Prefiscal",
+    sequence_id: 13,
+    document_attrs_id: 13,
+    print_button: true
+  },
+  {
+    id: "$default",
+    name: "Pos Fiscal",
+    sequence_id: 14,
+    document_attrs_id: 14,
+    print_button: true
+  },
+  {
+    id: "$default",
+    name: "Pos Invoice",
+    sequence_id: 15,
+    document_attrs_id: 15,
+    print_button: true
+  }
+]
+}
+

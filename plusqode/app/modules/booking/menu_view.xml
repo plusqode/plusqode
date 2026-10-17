@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<plusqode>
+    
+    <module name="BOOKING" position="20" 
+        icon="picons/core/models/booking.png"
+        mainIcon="picons/core/models/booking.png" iconSize="(256, 256)"
+        author="{name: 'PlusQode', address: 'Times Square, New York, +39 123.45.67'}"
+        description="This module ..."
+    />
+
+    <depends modules=""/>
+
+    <menuitem name="BOOKING"  ref="{modelName: 'booking'}"/>
+
+    <menusection name="SETTINGS" icon="picons/core/actions/settings.png">
+        <menuitem name="Contacts"  ref="{modelName: 'booking'}"/>
+    </menusection>
+
+<menuitem_place_holder/>
+
+</plusqode>
+

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<plusqode>
+  
+  <view type="table" name="module_repository_table" model="module_repository">
+    <field name="name"/>
+    <field name="enabled"/>
+  </view>
+
+  <view type="form" name="module_repository_form" model="module_repository">
+
+      <layout>
+          <label name="logo1" label="settings" alignment="center" icon="picons/core/actions/settings.png" size="(100, 100)" newline="false" hs="(0, 0)"/>
+          <label name="logo2" label="settings" alignment="center" icon="picons/core/actions/settings.png" size="(100, 100)" newline="false" hs="(0, 0)"/>
+          <label name="logo3" label="settings" alignment="center" icon="picons/core/actions/settings.png" size="(100, 100)" hs="(0, 0)"/>
+      </layout>
+      <layout>
+          <separator/>
+      </layout>
+
+      <layout minimumWidth="600">
+          <field name="name" main="true"/>
+          <field name="install_button" label="Install"/>
+      </layout>
+      <layout>
+          <separator/>
+      </layout>
+      <tab>
+          <panel name="Description">
+              <field name="description" label="false"/>
+          </panel>
+          <panel name="Author">
+              <field name="web_site"/>
+              <field name="tutorial"/>
+              <field name="manual"/>
+              <field name="author"/>
+          </panel>
+      </tab>
+  </view>
+  
+  <view type="icon" name="module_repository_icon" model="module_repository" iconSize="(64, 64)"/>
+
+  <!--  <view type="views" value="[icon, table]"/>  se metto entrambe fa il download per icon e per table -->
+  <view type="views" value="[icon]"/>
+
+</plusqode>
+

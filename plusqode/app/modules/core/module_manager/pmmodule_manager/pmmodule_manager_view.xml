@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<plusqode>
+  
+  <view type="table" name="module_manager_table" model="module_manager">
+    <field name="name"/>
+    <field name="enabled"/>
+  </view>
+
+  <view type="form" name="module_manager_form" model="module_manager">
+
+      <layout>
+          <label name="logo1" label="settings" alignment="center" icon="picons/core/actions/settings.png" size="(100, 100)" newline="false" hs="(0, 0)"/>
+          <label name="logo2" label="settings" alignment="center" icon="picons/core/actions/settings.png" size="(100, 100)" newline="false" hs="(0, 0)"/>
+          <label name="logo3" label="settings" alignment="center" icon="picons/core/actions/settings.png" size="(100, 100)" hs="(0, 0)"/>
+      </layout>
+      <layout>
+          <separator/>
+      </layout>
+
+      <layout minimumWidth="600">
+          <field name="name" main="true"/>
+          <field name="enabled"/>
+          <field name="uninstall_button" label="Uninstall"/>
+      </layout>
+      <layout>
+          <separator/>
+      </layout>
+      <tab>
+          <panel name="Description">
+              <field name="description" label="false"/>
+          </panel>
+          <panel name="Author">
+              <field name="web_site"/>
+              <field name="tutorial"/>
+              <field name="manual"/>
+              <field name="author"/>
+          </panel>
+      </tab>
+  </view>
+  
+  <view type="icon" name="module_manager_icon" model="module_manager" iconSize="(64, 64)"/>
+
+  <view type="views" value="[icon, table]"/>
+
+    <view type="controlpanel">
+        <layout name="control-panel">
+            <menusection newline="false" spacing="0" maximumWidth="70">
+                <menuitem name="Up"  action="up" icon=":/picons/core/actions/up.png" newline="true"/>
+                <menuitem name="Down"  action="down" icon=":/picons/core/actions/down.png"/>
+            </menusection>
+            <menusection  newline="false">
+                <menuitem name="New"  action="new" icon=":/picons/core/actions/new.png"
+                          toolTip="New Row"
+                          minimumHeight="60" maximumWidth="70"/>
+                <menuitem name="Edit"  action="edit" icon=":/picons/core/actions/edit.png"
+                          toolTip="Edit Row"
+                          minimumHeight="60" maximumWidth="70"/>
+                <menuitem name="Delete"  action="delete" askConfirm="Do You Want to Delete ?"
+                          icon="{name: ':/picons/core/actions/delete.png', hue: 330}"
+                          toolTip="Delete Row"
+                          minimumHeight="60" maximumWidth="70"/>
+                      <menuitem name="Disable"  action="disableAllModules" askConfirm="Do You Want to disable all Modules ?"
+                          toolTip="Disable all modules"
+                          icon="picons/core/actions-128/logout.png" minimumHeight="60" maximumWidth="70"/>
+            </menusection>
+            <menusection/> <!-- it needs as horizontal spacer -->
+        </layout>
+    </view>
+
+</plusqode>
+

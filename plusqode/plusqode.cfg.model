@@ -1,0 +1,50 @@
+{
+
+  logger: {
+     level: "all",
+     type: "OVERWRITE", // APPEND or OVERWRITE or STDOUT
+//     type: "STDOUT", // APPEND or OVERWRITE or STDOUT
+     basedir: ".",
+     filename: "plusqode.log"
+   },
+  
+   plusqode_pgsql: {  // connection name
+    host: "127.0.0.1",
+    port: "5432",
+    dbname: "plusqode",
+    user: "plusqode",
+    password: "plusqode-pgsql-pwd",
+    timezone: "posix/Europe/Rome", // PgPsql(select * from pg_timezone_names;)
+    driver: 'QPSQL'
+  },
+
+  plusqode_mysql: {  // connection name
+    host: "127.0.0.1",
+    port: "3306",
+    dbname: "plusqode",
+    user: "plusqode",
+    password: "plusqode-mysql-pwd",
+    timezone: "+02:00",
+    driver: 'QMYSQL'
+  },
+  
+  plusqode_sqlite: {  // connection name
+    dbname: "plusqode_sqlite",
+    user: "plusqode",
+    password: "plusqode-sqlite-pwd",
+    timezone: "+02:00", 
+    driver: 'QSQLITE'
+  },
+
+
+  quickorder_db: {
+    host: "127.0.0.1",
+    port: "5432",
+    dbname: "quickorderQuickOrder",
+    user: "quickorder",
+    password: "quickorder",
+    timezone: "posix/Europe/Rome", // PgPsql(select * from pg_timezone_names;)·
+    driver: 'QPSQL'
+  }
+
+}

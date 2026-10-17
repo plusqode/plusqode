@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<plusqode>
+  
+    <view type="table" name="profile_table" model="profile">
+        <field name="name"/>
+  </view>
+
+  <view type="form" name="profile_form" model="profile">
+      <layout>
+          <label label="user" alignment="center" icon="picons/pos/customer/user.png" size="(128, 128)" newline="false" hs="(0, 120)"/>
+          <label label="user" alignment="center" icon="picons/pos/customer/user.png" size="(128, 128)" newline="false" hs="(50, 120)"/>
+          <label label="user" alignment="center" icon="picons/pos/customer/user.png" size="(128, 128)" hs="(150, 120)"/>
+      </layout>
+      <layout>
+          <separator/>
+      </layout>
+      <layout>
+          <field name="name"/>
+      </layout>
+      <layout>
+          <separator/>
+      </layout>
+      
+      <tab>
+          <panel name="Models">
+              <field name="profile_model_table"/>
+          </panel>
+          <panel name="Modules">
+              <field name="profile_module_table"/>
+          </panel>
+      </tab>
+
+  </view>
+
+  
+  <view type="controlpanel">
+      <layout name="control-panel">
+          <menusection newline="false" spacing="0" maximumWidth="70">
+              <menuitem name="Up"  action="up" icon=":/picons/core/actions/up.png" newline="true"/>
+              <menuitem name="Down"  action="down" icon=":/picons/core/actions/down.png"/>
+          </menusection>
+          <menusection  newline="false">
+              <menuitem name="New"  action="new" icon=":/picons/core/actions/new.png" minimumHeight="60" maximumWidth="70"/>
+              <menuitem name="Edit"  action="edit" icon=":/picons/core/actions/edit.png" minimumHeight="60" maximumWidth="70"/>
+              <menuitem name="Delete"  action="delete" icon=":/picons/core/actions/delete.png" minimumHeight="60" maximumWidth="70"/>
+              <menuitem name="Developer Mode"  action="setDeveloperMode" icon="picons/core/actions/settings.png" minimumHeight="60" maximumWidth="70"/>
+
+          </menusection>
+          <menusection/> <!-- it needs as horizontal spacer -->
+      </layout>
+  </view>
+
+</plusqode>
+

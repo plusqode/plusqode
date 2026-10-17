@@ -1,0 +1,23 @@
+{
+tax_rate: [
+  {
+    id: "$default",
+    name: "10%",
+    value: "10",
+    department: 1
+  },
+  {
+    id: "$default",
+    name: "22%",
+    value: "22",
+    department: 2
+  },
+  {
+    id: "$default",
+    name: "4%",
+    value: "4",
+    department: 3
+  }
+]
+}
+

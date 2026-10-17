@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<plusqode>
+  
+  <view type="table" name="document_state_table" model="document_state">
+    <field name="name"/>
+    <field name="icon_id"/>
+  </view>
+
+  <view type="form" name="document_state_form" model="document_state">
+
+      <layout>
+          <label label="settings" alignment="center" icon="picons/core/actions/settings.png" size="(100, 100)" newline="false" hs="(0, 0)"/>
+          <label label="settings" alignment="center" icon="picons/core/actions/settings.png" size="(100, 100)" newline="false" hs="(0, 0)"/>
+          <label label="settings" alignment="center" icon="picons/core/actions/settings.png" size="(100, 100)" hs="(0, 0)"/>
+      </layout>
+      <layout>
+          <separator/>
+      </layout>
+
+      <layout>
+          <field name="name"/>
+          <field name="icon_id"/>
+      </layout>
+
+      <layout>
+          <separator/>
+      </layout>
+  </view>
+
+
+
+</plusqode>
+

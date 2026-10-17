@@ -1,0 +1,3 @@
+{scheduler_manager:[
+{name: "Database Backup", service: "database", state: true, type: "Daily", time: "11:00:00", interval: 10, day: "Monday", description: ""}
+]}

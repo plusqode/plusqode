@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<plusqode>
+    
+    <module name="Database Manager" position="30" icon="picons/core/models/database.png" 
+        mainIcon="picons/core/models/database.png" iconSize="(256, 256)"
+        author="{name: 'PlusQode', address: 'Via Nino Arcidiacono 49/A,95018 Riposto(CT)'}"
+        description="Porting Database System"
+        web_site="www.plusqode.com"
+    />
+
+
+    <menuitem name="Bakup/Restore"  ref="{modelName: 'backup'}"/>
+    <menuitem name="Database Manager"  ref="{modelName: 'database_manager'}"/>
+    <menuitem name="Connections"  ref="{modelName: 'database_connection'}"/>
+    <menuitem name="Import"  ref="{modelName: 'database_import'}"/>
+
+
+</plusqode>
+

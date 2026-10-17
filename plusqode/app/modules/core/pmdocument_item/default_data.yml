@@ -1,0 +1,59 @@
+{
+document_item: [
+  {
+    id: "$default",
+    name: "01-2022_1 Item",
+    document_id: 1,
+    tax_rate_id: 1
+  },
+  {
+    id: "$default",
+    name: "01-2022_2 Item",
+    document_id: 1,
+    tax_rate_id: 1
+  },
+  {
+    id: "$default",
+    name: "01-2022_3 Item",
+    document_id: 1,
+    tax_rate_id: 1
+  },
+  {
+    id: "$default",
+    name: "02-2022_1 Item",
+    document_id: 2,
+    tax_rate_id: 1
+  },
+  {
+    id: "$default",
+    name: "02-2022_2 Item",
+    document_id: 2,
+    tax_rate_id: 1
+  },
+  {
+    id: "$default",
+    name: "02-2022_3 Item",
+    document_id: 2,
+    tax_rate_id: 1
+  },
+  {
+    id: "$default",
+    name: "03-2022_1 Item",
+    document_id: 3,
+    tax_rate_id: 1
+  },
+  {
+    id: "$default",
+    name: "03-2022_2 Item",
+    document_id: 3,
+    tax_rate_id: 1
+  },
+  {
+    id: "$default",
+    name: "03-2022_3 Item",
+    document_id: 3,
+    tax_rate_id: 1
+  }
+]
+}
+

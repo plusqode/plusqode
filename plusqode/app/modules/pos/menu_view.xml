@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<plusqode>
+    
+    <module name="POS" position="20" 
+        icon="picons/core/models/quickorder.png" 
+        mainIcon="picons/core/models/quickorder.png" iconSize="(256, 256)"
+        author="{name: 'PlusQode', address: 'Via Nino Arcidiacono 49/A,95018 Riposto(CT)'}"
+        description="Point of Sale"
+    />
+
+    <menuitem name="Categories" ref="{modelName: 'pos_category'}"/>
+    <menuitem name="Products" ref="{modelName: 'pos_product'}"/>
+    <menuitem name="POS List" ref="{modelName: 'pos'}"/>
+    <menuitem name="Documents" ref="{modelName: 'pos_document'}"/>
+    <menuitem name="Archive"  ref="{modelName: 'document_copy', domain: {document_type_id.name: 'Pos Document'}}"/>
+
+    <menusection name="SETTINGS" icon="picons/core/actions/settings.png">
+        <menuitem name="Printers" ref="{modelName: 'pos_printer'}"/>
+        <menuitem name="Pos Document Type" ref="{modelName: 'document_type'}"/>
+        <menuitem name="Pos Document Attrs" ref="{modelName: 'document_attrs'}"/>
+        <menuitem name="Icons" ref="{modelName: 'icon'}"/>
+        <menuitem name="Payment Mode" ref="{modelName: 'payment_mode'}"/>
+    </menusection>
+
+</plusqode>
+

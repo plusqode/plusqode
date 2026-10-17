@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<plusqode>
+  
+  <view type="table" name="document_copy_table" model="document_copy">
+      <field name="id"/>
+      <field name="ordering"/>
+      <field name="selected"/>
+      <field name="document_copy_id"/>
+      <field name="document_type_id.name"/>
+      <field name="state"/>
+      <field name="document_state_id"/>
+      <field name="serial"/>
+      <field name="date"/>
+      <field name="contact_id"/>
+      <field name="taxable"/>
+      <field name="tax"/>
+      <field name="total"/>
+      <field name="paid_progress"/>
+      <field name="to_pay"/>
+      <field name="paid"/>
+  </view>
+
+  <view type="other" name="document_type_form" model="document_copy">
+
+      <layout>
+          <separator/>
+      </layout>
+
+      <layout>
+          <field name="document_type_id" label="false" readOnly="false" editable="false" newButton="false" editButton="false" />
+      </layout>
+
+      <layout>
+          <separator/>
+      </layout>
+
+  </view>
+
+  <!-- arrangement="horizontal" alignment="right" possono essere inseriti su qualsiasi tag (block, field ...) -->
+  <view type="form" name="document_copy_form" model="document_copy" arrangement="horizontal" alignment="right">
+
+      <layout>
+          <separator/>
+      </layout>
+
+      <layout minimumHeight="70">
+          <field name="state" label="false" iconFile="picons/core/actions-128/state.png" iconSize="(64, 64)"/>
+      </layout>
+
+      <layout>
+          <separator/>
+      </layout>
+
+      <layout name="main">
+          <layout newline="false">
+              <field name="selected"/>
+              <field name="document_copy_id.serial" label="Ref."/>
+              <field name="document_type_id"/>
+              <field name="document_state_id"/>
+              <field name="serial"/>
+              <field name="date"/>
+              <field name="contact_id"/>
+          </layout>
+          <layout>
+              <field name="taxable"/>
+              <field name="tax"/>
+              <field name="total"/>
+              <field name="paid_progress" style="mac"/>
+              <field name="paid"/>
+              <field name="to_pay"/>
+          </layout>
+      </layout>
+
+      <tab>
+          <panel name="Items">
+              <field name="document_item_copy_table"/>
+          </panel>
+          <panel name="Payments">
+              <field name="payment_copy_table"/>
+          </panel>
+          <panel name="Balance">
+              <field name="to_pay_progress" newline="false" fieldType="dashboard" label="To Pay %" style="spider" hue="160" saturation="180" sizeRate="80" arrangement="vertical" alignment="center"/>
+              <field name="paid_progress" fieldType="dashboard" label="Paid" style="spider" hue="5" sizeRate="80" arrangement="vertical" alignment="center"/>
+          </panel>
+      </tab>
+
+  </view>
+
+
+</plusqode>
+

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<plusqode>
+    
+    <module name="Scheduler Manager" position="20"
+        icon="picons/core/models/scheduler.png"
+        mainIcon="picons/core/models/scheduler.png" iconSize="(256, 256)"
+        author="{name: 'PlusQode', address: 'Times Square, New York, +39 123.45.67'}"
+        description="This module ..."
+    />
+
+    <menuitem name="Scheduler"  ref="{modelName: 'scheduler_manager'}"/>
+
+    <menusection name="SETTINGS" icon="picons/core/actions/settings.png">
+        <menuitem name="Contacts"  ref="{modelName: 'scheduler_manager'}"/>
+    </menusection>
+
+<menuitem_place_holder/>
+
+</plusqode>
+

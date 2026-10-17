@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<plusqode>
+    <module name="ModuleManager" position="100" 
+        icon="picons/core/models/module-manager.png" 
+        mainIcon="picons/core/models/module-manager.png" iconSize="(256, 256)"
+        author="{name: 'PlusQode', address: 'Via Nino Arcidiacono 49/A,95018 Riposto(CT)'}"
+        description="Accounting Manager"
+    />
+
+    <menuitem name="Modules" ref="{modelName: 'module_manager'}"/>
+    <menuitem name="Repository" ref="{modelName: 'module_repository'}"/>
+</plusqode>
+

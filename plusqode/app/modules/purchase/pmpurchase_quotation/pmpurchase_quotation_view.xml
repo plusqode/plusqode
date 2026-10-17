@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<plusqode>
+  
+  <view type="table" name="purchase_quotation_table" model="purchase_quotation">
+      <partial ptr="core.pmdocument.pmdocument_view:table"/>
+  </view>
+
+  <view type="form" name="purchase_quotation_form" model="purchase_quotation">
+      <partial ptr="core.pmdocument.pmdocument_view:form"/>
+      <panel name="Categories" overload="remove"/>
+  </view>
+
+</plusqode>
+

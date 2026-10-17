@@ -1,0 +1,12 @@
+{
+pos_printer_driver: [ 
+  {
+    id: "$default",
+    name: "Epson TM-T88"
+  },
+  {
+    id: "$default",
+    name: "Xon-Xoff"
+  }
+]
+}

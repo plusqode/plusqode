@@ -1,0 +1,45 @@
+{
+pos_printer: [
+  {
+    id: "$default",
+    name: "PREFISCAL",
+    ip_address: '192.168.0.192',
+    port: '9100', 
+    pos_printer_driver_id: 1,
+    document_type_id: 13
+  },
+  {
+    id: "$default",
+    name: "KITCHEN",
+    ip_address: '192.168.0.192',
+    port: '9100', 
+    pos_printer_driver_id: 1,
+    document_type_id: 12
+  },
+  {
+    id: "$default",
+    name: "PIZZERIA",
+    ip_address: '192.168.0.192',
+    port: '9100', 
+    pos_printer_driver_id: 1,
+    document_type_id: 12
+  },
+  {
+    id: "$default",
+    name: "FISCAL",
+    ip_address: '192.168.0.192',
+    port: '9100', 
+    pos_printer_driver_id: 2,
+    document_type_id: 14
+  },
+  {
+    id: "$default",
+    name: "INVOICE",
+    ip_address: '192.168.0.192',
+    port: '9100', 
+    pos_printer_driver_id: 1,
+    document_type_id: 15
+  }
+]
+}
+

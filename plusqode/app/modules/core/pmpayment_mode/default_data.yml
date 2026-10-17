@@ -1,0 +1,35 @@
+{
+payment_mode: [
+  {
+    id: "$default",
+    name: "Cash",
+    tender: 'H1T'
+  },
+  {
+    id: "$default",
+    name: "Credit Card",
+    tender: 'H3T'
+  },
+  {
+    id: "$default",
+    name: "Check",
+    tender: 'H2T'
+  },
+  {
+    id: "$default",
+    name: "Bank Transfer",
+    tender: 'H1T'
+  },
+  {
+    id: "$default",
+    name: "Ticket",
+    tender: 'H5T'
+  },
+  {
+    id: "$default",
+    name: "To Pay",
+    tender: 'H5T'
+  }
+]
+}
+

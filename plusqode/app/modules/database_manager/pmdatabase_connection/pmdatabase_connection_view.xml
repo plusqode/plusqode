@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<plusqode>
+
+    <view type="form" name="document_form" model="document">
+
+        <layout>
+            <field name="name"/>
+            <field name="host"/>
+            <field name="port"/>
+            <field name="database_name"/>
+            <field name="username"/>
+            <field name="password"/>
+            <field name="timezone"/>
+
+            <field name="database_connector"/>
+            <menusection name="Other" label='Test Connection'>
+                <menuitem action="Test Connection" icon="{name: 'picons/core/actions-128/refresh.png', width:64, height: 64}"/>
+            </menusection>
+        </layout>
+
+        <tab>
+            <panel name="Tables">
+                <field name="database_connection_table_table"/>
+            </panel>
+        </tab>
+
+    </view>
+
+</plusqode>

@@ -1,0 +1,40 @@
+{
+pos: [
+  {
+    id: "$default",
+    name: "RESTAURANT",
+    icon: "picons/pos/restaurant/table.png"
+  },
+  {
+    id: "$default",
+    name: "TAKEAWAY",
+    icon: "picons/pos/restaurant/vespa.png"
+  },
+  {
+    id: "$default",
+    name: "HOTEL",
+    icon: "picons/pos/hotel/door.png"
+  },
+  {
+    id: "$default",
+    name: "BEACH",
+    icon: "picons/pos/beach/umbrella.png"
+  },
+  {
+    id: "$default",
+    name: "Computer Shop",
+    icon: "picons/pos/customer/tux.png"
+  },
+  {
+    id: "$default",
+    name: "Taxi",
+    icon: "picons/pos/taxi/taxi.png"
+  },
+  {
+    id: "$default",
+    name: "Generic",
+    icon: "picons/pos/customer/user.png"
+  }
+]
+}
+

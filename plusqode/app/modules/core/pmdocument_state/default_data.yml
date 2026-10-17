@@ -1,0 +1,42 @@
+{
+document_state: [
+  {
+    id: "$default",
+    name: "free",
+    icon_id: 1
+  },
+  {
+    id: "$default",
+    name: "busy",
+    icon_id: 2
+  },
+  {
+    id: "$default",
+    name: "billed",
+    icon_id: 3
+  },
+  {
+    id: "$default",
+    name: "to-pay",
+    icon_id: 4
+  },
+  {
+    id: "$default",
+    name: "booked",
+    icon_id: 5
+  },
+  {
+    id: "$default",
+    name: "Stand-By"
+  },
+  {
+    id: "$default",
+    name: "To Check"
+  },
+  {
+    id: "$default",
+    name: "To Cancel"
+  }
+]
+}
+

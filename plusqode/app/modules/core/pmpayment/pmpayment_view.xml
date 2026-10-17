@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<plusqode>
+  
+  <view type="table" name="payment_table" model="category">
+      <field name="amount"/>
+      <field name="date"/>
+      <field name="payment_mode_id.name" label="Payment Mode" alignment="center"/>
+      <field name="description"/>
+      <field name="document_id.serial" alignment="center"/>
+      <field name="document_id.date" alignment="center"/>
+  </view>
+
+  <view type="form" name="payment_form" model="category">
+
+      <layout>
+          <label label="user" alignment="center" icon="picons/core/models/money.png" size="(128, 128)" newline="false" hs="(50, 0)"/>
+          <label label="user" alignment="center" icon="picons/core/models/money.png" size="(128, 128)" newline="false" hs="(150, 0)"/>
+          <label label="user" alignment="center" icon="picons/core/models/money.png" size="(128, 128)" newline="false" hs="(200, 0)"/>
+      </layout>
+      
+      <layout>
+          <separator/>
+      </layout>
+ 
+      <layout minimumWidth="400" minimumHeight="50">
+          <field name="amount" main="true" arrangement="vertical"/>
+      </layout>
+      <layout>
+          <field name="date"/>
+          <field name="payment_mode_id"/>
+          <field name="description"/>
+          <field name="document_id"/>
+          <field name="transaction_id"/>
+      </layout>
+
+      <layout>
+          <separator/>
+      </layout>
+
+  </view>
+
+
+</plusqode>
+

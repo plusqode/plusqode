@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hypersonic>
+
+  <menusection name="EMAIL" position="95">
+
+    <menuitem name="Templates"  ref="{modelName: 'email_template'}"/>
+    <menuitem name="Categories"  ref="{modelName: 'email_template_category'}"/>
+    <menuitem name="Types"  ref="{modelName: 'email_template_type'}"/>
+    <menuitem name="Contact Types"  ref="{modelName: 'email_template_contact_type'}"/>
+    <menuitem name="Accounts"  ref="{modelName: 'email_account'}"/>
+
+  </menusection>
+
+</hypersonic>
+

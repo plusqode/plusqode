@@ -1,0 +1,47 @@
+{
+contact_address: [
+  {
+    id: "$default",
+    contact_id: 1,
+    name: "PlusQode Industries",
+    street_name: "Via Roma",
+    street_number: '123',
+    postal_code: '00100',
+    city: 'Rome',
+    state_province: 'RM',
+    country: 'Italy',
+    phone: '+39 011 043.60.53',
+    mobile: '+43 664 79.50.222',
+    email: 'info@plusqode.com'
+
+  },
+  {
+    id: "$default",
+    contact_id: 1,
+    name: "PlusQode Industries",
+    street_name: "Baker Street",
+    street_number: '15',
+    address_note: 'First Floor',
+    postal_code: 'NW1 6XE',
+    city: 'London',
+    state_province: ' ',
+    country: 'United Kingdom'
+  },
+  {
+    id: "$default",
+    contact_id: 2,
+    name: "WIEN LTD",
+    street_name: "Franz Hochedlinger Gasse ",
+    street_number: '2',
+    postal_code: '1020',
+    city: 'Wien',
+    state_province: 'Wien',
+    country: 'Austria',
+    phone: '+39 0043 11.22.33',
+    mobile: '+43 32 76.52.222',
+    email: 'info@wienltd.com'
+
+  }
+]
+}
+

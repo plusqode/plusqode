@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<plusqode>
+  
+    <view type="table" name="product_table" model="product">
+        <field name="name"/>
+        <field name="product_type_id.name"/>
+        <field name="category_id"/>
+        <field name="price"/>
+        <field name="tax_rate_id"/>
+        <field name="tax"/>
+        <field name="price_with_tax"/>
+    </view>
+    
+  <view type="form" name="product_form" model="product" button_role="7">
+      
+      <layout name="header" minimumWidth="600">
+          <label label="user" alignment="center" icon="picons/core/models/product.png" size="(100, 100)" newline="false" hs="(50, 0)"/>
+          <label label="user" alignment="center" icon="picons/core/models/product.png" size="(100, 100)" newline="false" hs="(150, 0)"/>
+          <label label="user" alignment="center" icon="picons/core/models/product.png" size="(100, 100)" newline="false" hs="(200, 0)"/>
+      </layout>
+      
+      <layout>
+          <separator/>
+      </layout>
+      
+      <layout>
+          <layout>
+              <field name="name" arrangement="vertical"/>
+          </layout>
+          <layout>
+              <separator/>
+          </layout>
+          <layout newline="false">
+              <field name="product_type_id"/>
+              <field name="price"/>
+              <field name="tax_rate_id"/>
+              <field name="tax"/>
+              <field name="price_with_tax"/>
+              <field name="icon"/>
+              <field name="barcode"/>
+          </layout>
+      </layout>
+      <tab name="tab">
+          <panel name="Discounts">
+              <field name="product_discount_table"/>
+          </panel>
+          <panel name="Discount">
+              <field name="discount_rate"/>
+              <field name="discount_value"/>
+              <field name="price_with_discount"/>
+              <field name="final_price"/>
+          </panel>
+          <panel name="Products">
+              <field name="product_table"/>
+          </panel>
+      </tab>
+  </view>
+
+</plusqode>
+

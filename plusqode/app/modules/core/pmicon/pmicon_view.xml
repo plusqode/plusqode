@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<plusqode>
+  
+  <view type="table" name="icon_table" model="icon">
+    <field name="name"/>
+  </view>
+
+  <view type="form" name="icon_form" model="icon">
+
+      <layout>
+          <label label="settings" alignment="center" icon="picons/core/actions/settings.png" size="(100, 100)" newline="false" hs="(0, 0)"/>
+          <label label="settings" alignment="center" icon="picons/core/actions/settings.png" size="(100, 100)" newline="false" hs="(0, 0)"/>
+          <label label="settings" alignment="center" icon="picons/core/actions/settings.png" size="(100, 100)" hs="(0, 0)"/>
+      </layout>
+      <layout>
+          <separator/>
+      </layout>
+
+      <layout>
+          <layout minimumWidth="300" newline="false">
+              <field name="name"/>
+              <field name="icon"/>
+              <field name="hue"/>
+              <field name="saturation"/>
+              <field name="scale"/>
+          </layout>
+          <layout minimumWidth="200">
+              <field name="preview" arrangement="vertical" alignment="center"/>
+          </layout>
+      </layout>
+
+      <layout>
+          <separator/>
+      </layout>
+
+  </view>
+
+
+
+</plusqode>
+

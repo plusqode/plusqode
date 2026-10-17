@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<plusqode>
+
+    <view type="table" name="barcode_manager_table" model="barcode_manager">
+        <field name="name"/>
+        <field name="barcode"/>
+        <field name="selected"/>
+    </view>
+
+    <view type="controlpanel">
+        <layout name="control-panel">
+            <menusection  newline="false" minimumWidth="200">
+                <menuitem name="To Print"  action="setToPrint" icon="picons/core/actions/ok.png" minimumHeight="60" maximumWidth="70"/>
+                <menuitem name="Print"  action="print" icon="picons/core/actions/print.png" minimumHeight="60" maximumWidth="70"/>
+                <menuitem name="Reset"  action="reset" icon="picons/core/actions/delete.png" minimumHeight="60" maximumWidth="70"/>
+            </menusection>
+            <layout name="barcode-panel" maximumWidth="250">
+                <label label="Barcode"/>
+            </layout>
+        </layout>
+    </view>
+
+
+</plusqode>
+

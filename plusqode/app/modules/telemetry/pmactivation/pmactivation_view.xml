@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='utf-8'?>
+<plusqode>
+
+  <view type='table' name='activation_table' model='activation' show_filter_panel='false'>
+      <field name='name'/>
+      <field name='version'/>
+      <field name='activation_date'/>
+      <field name='last_start_date'/>
+      <field name='os_name'/>
+      <field name='os_type'/>
+      <field name='os_version'/>
+      <field name='architecture'/>
+      <field name='language'/>
+      <field name='total_sessions'/>
+      <field name='total_minutes'/>
+      <field name='client_id'/>
+      <field name='modules'/>
+  </view>
+
+  <view type='form' name='activation_form' model='activation'>
+
+      <layout>
+          <label label='user' alignment='center' icon='picons/core/actions-128/under-construction.png' size='(128, 128)' newline='false' hs='(50, 0)'/>
+          <label label='user' alignment='center' icon='picons/core/actions-128/under-construction.png' size='(128, 128)' newline='false' hs='(150, 0)'/>
+          <label label='user' alignment='center' icon='picons/core/actions-128/under-construction.png' size='(128, 128)' newline='false' hs='(200, 0)'/>
+      </layout>
+
+      <layout>
+          <separator height='5'/>
+      </layout>
+
+      <layout>
+          <separator/>
+      </layout>
+
+      <tab name='tab'>
+          <panel name='Activations'>
+              <field name='name'/>
+              <field name='version'/>
+              <field name='activation_date'/>
+              <field name='last_start_date'/>
+              <field name='os_name'/>
+              <field name='os_type'/>
+              <field name='os_version'/>
+              <field name='architecture'/>
+              <field name='language'/>
+              <field name='total_sessions'/>
+              <field name='total_minutes'/>
+              <field name='client_id'/>
+          </panel>
+          <panel name='Module Usages'>
+              <field name='module_usages' label='false'/>
+          </panel>
+      </tab>
+
+  </view>
+
+
+</plusqode>

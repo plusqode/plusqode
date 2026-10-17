@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='utf-8'?>
+<plusqode>
+
+  <view type='table' name='scheduler_manager_table' model='scheduler_manager' show_filter_panel='false'>
+      <field name='name'/>
+      <field name='service'/>
+      <field name='state'/>
+      <field name='type'/>
+      <field name='time'/>
+      <field name='interval'/>
+      <field name='day'/>
+  </view>
+
+  <view type='form' name='scheduler_manager_form' model='scheduler_manager'>
+
+      <layout>
+          <label label='user' alignment='center' icon='picons/core/models/scheduler.png' size='(128, 128)' newline='false' hs='(50, 0)'/>
+          <label label='user' alignment='center' icon='picons/core/models/scheduler.png' size='(128, 128)' newline='false' hs='(150, 0)'/>
+          <label label='user' alignment='center' icon='picons/core/models/scheduler.png' size='(128, 128)' newline='false' hs='(200, 0)'/>
+      </layout>
+
+      <layout>
+          <separator height='5'/>
+      </layout>
+
+      <layout>
+          <field name='name'/>
+          <field name='service'/>
+          <field name='state'/>
+          <field name='type'/>
+          <field name='time'/>
+          <field name='interval'/>
+          <field name='day'/>
+      </layout>
+
+      <layout>
+          <tab>
+              <panel name="Description">
+                    <field name='description' label='false'/>
+              </panel>
+          </tab>
+      </layout>
+
+      <layout>
+          <separator/>
+      </layout>
+
+  </view>
+
+
+</plusqode>

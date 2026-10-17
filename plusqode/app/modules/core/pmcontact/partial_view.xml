@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hypersonicplus>
+  
+  <view type="table" name="contact_table" model="contact">
+    <field name="contact_type_id.name"/>
+    <field name="name" visible="true"/>
+    <field name="contact_name" label="Nome Contatto"/>
+    <field name="contact_surname"/>
+    <field name="contact_nickname"/>
+    <field name="phone"/>
+    <field name="mobile"/>
+    <field name="email"/>
+    <field name="pec"/>
+    <field name="vat_number"/>
+    <field name="fiscal_code"/>
+    <field name="description"/>
+    <field name="credit"/>
+  </view>
+
+
+  <view type="form" name="contact_form" model="contact">
+    <layout>
+      <field name="name" main="true"/>
+      <field name="contact_type"/> 
+      <field name="contact_type_id"/> 
+    </layout>
+    <layout>
+      <layout newline="false">
+        <field name="contact_name"/>
+        <field name="contact_nickname"/>
+        <field name="phone"/>
+        <field name="email"/>
+        <field name="vat_number"/>
+      </layout>
+      <layout newline="false">
+        <field name="contact_surname"/>
+        <field name="contact_nickname"/>
+        <field name="mobile"/>
+        <field name="pec"/>
+        <field name="fiscal_code"/>
+      </layout>
+    </layout>
+
+    <tab>
+        <panel name="Description">
+            <field name="description" label=""/>
+        </panel>
+        <panel name="Addresses">
+            <field name="billing_address_id" arrangement="vertical"/>
+            <field name="delivery_address_id" arrangement="vertical"/>
+            <field name="contact_address_table" arrangement="vertical"/> 
+        </panel>
+    </tab>
+
+  </view>
+
+
+</hypersonicplus>
+

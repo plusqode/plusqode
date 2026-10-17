@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<plusqode>
+    
+    <module name="Warehouse" position="20" 
+        icon="picons/core/models/warehouse.png" 
+        mainIcon="picons/core/models/warehouse.png" iconSize="(256, 256)"
+        author="{name: 'PlusQode', address: 'Via Nino Arcidiacono 49/A,95018 Riposto(CT)'}"
+        description="Warehouse Manager"
+    />
+
+    <menuitem name="Categories" ref="{modelName: 'category'}"/>
+    <menuitem name="Products" ref="{modelName: 'product'}"/>
+    <menuitem name="Barcode Manager" ref="{modelName: 'barcode_manager'}"/>
+    <menuitem name="Barcode Printer" ref="{modelName: 'barcode_printer'}"/>
+    <menuitem name="Scale Setting" ref="{modelName: 'scale_setting'}"/>
+
+</plusqode>
+

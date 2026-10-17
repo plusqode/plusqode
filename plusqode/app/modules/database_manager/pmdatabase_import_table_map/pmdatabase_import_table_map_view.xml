@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='utf-8'?>
+<plusqode>
+
+  <view type='table' name='database_import_table_map_table' model='database_import_table_map' show_filter_panel='false'>
+      <field name='name'/>
+      <field name='source_table_id.name'/>
+      <field name='dest_table_id.name'/>
+  </view>
+
+  <view type='form' name='database_import_table_map_form' model='database_import_table_map'>
+
+      <layout>
+          <label label='user' alignment='center' icon='picons/core/actions-128/db-restore.png' size='(128, 128)' newline='false' hs='(50, 0)'/>
+          <label label='user' alignment='center' icon='picons/core/actions-128/db-restore.png' size='(128, 128)' newline='false' hs='(150, 0)'/>
+          <label label='user' alignment='center' icon='picons/core/actions-128/db-restore.png' size='(128, 128)' newline='false' hs='(200, 0)'/>
+      </layout>
+
+      <layout minimumWidth="800" minimumHeight="600">
+
+      <layout>
+          <separator height='5'/>
+      </layout>
+
+      <layout>
+          <field name='name'/>
+          <field name='source_table_id'/>
+          <field name='dest_table_id'/>
+          <field name='to_clean_before'/>
+      </layout>
+
+      <layout>
+          <separator/>
+      </layout>
+
+      <tab name='tab'>
+          <panel name='Field Coversion'>
+              <field name='database_import_field_map_table'/>
+          </panel>
+
+          <panel name='Source DB'>
+              <field name='source_pre_sql' label='Pre Migration Sql' arrangement="vertical"/>
+              <field name='source_post_sql' label='Post Migration Sql' arrangement="vertical"/>
+          </panel>
+
+          <panel name='Dest DB'>
+              <field name='dest_pre_sql' label='Pre Migration Sql' arrangement="vertical"/>
+              <field name='dest_post_sql' label='Post Migration Sql' arrangement="vertical"/>
+          </panel>
+
+      </layout>
+
+      </tab>
+
+  </view>
+
+
+</plusqode>

@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='utf-8'?>
+<plusqode>
+
+  <view type='table' name='pbx_phone_number_table' model='pbx_phone_number' show_filter_panel='false'>
+      <field name='phone_number'/>
+      <field name='type'/>
+      <field name='destination_type'/>
+      <field name='pbx_phone_number_id.phone_number' label='Destination'/>
+      <field name='ivr_key'/>
+      <field name='username'/>
+      <field name='pbx_voice_agent_id.name'/>
+  </view>
+
+  <view type='form' name='pbx_phone_number_form' model='pbx_phone_number'>
+
+      <layout>
+          <label label='user' alignment='center' icon='picons/core/models/pbx.png' size='(128, 128)' newline='false' hs='(0, 0)'/>
+          <label label='user' alignment='center' icon='picons/core/models/pbx.png' size='(128, 128)' newline='false' hs='(150, 0)'/>
+      </layout>
+
+      <layout>
+          <separator height='5'/>
+      </layout>
+
+      <layout>
+          <field name='phone_number'/>
+          <field name='type'/>
+          <field name='username'/>
+          <field name='password'/>
+          <field name='destination_type'/>
+          <field name='pbx_phone_number_id' label='Destination'/>
+          <field name='pbx_voice_agent_id'/>
+      </layout>
+
+      <layout>
+          <separator/>
+      </layout>
+
+      <tab name='tab'>
+          <panel name='Container'>
+              <field name='pbx_phone_number_join_table' label='false'/>
+          </panel>
+          <panel name='IVR'>
+              <field name='ivr_sound_file_loader' label='IVR Sound File'/>
+          </panel>
+          <panel name='PJSIP'>
+              <field name='pjsip_conf' label='false'/>
+          </panel>
+          <panel name='Extensions'>
+              <field name='extensions_conf' label='false'/>
+          </panel>
+      </tab>
+
+  </view>
+
+
+</plusqode>

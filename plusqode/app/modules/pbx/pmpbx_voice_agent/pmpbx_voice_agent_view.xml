@@ -1,0 +1,93 @@
+<?xml version='1.0' encoding='utf-8'?>
+<plusqode>
+
+  <view type='table' name='pbx_voice_agent_table' model='pbx_voice_agent' show_filter_panel='false'>
+      <field name='name'/>
+      <field name='model_name'/>
+      <field name='language'/>
+      <field name='voice_name'/>
+  </view>
+
+  <view type='form' name='pbx_voice_agent_form' model='pbx_voice_agent'>
+
+      <layout minimumWidth="900">
+
+          <layout>
+              <label label='user' alignment='center' icon='picons/core/models/voice-agent.png' size='(128, 128)' newline='false' hs='(0, 0)'/>
+              <label label='user' alignment='center' icon='picons/core/models/voice-agent.png' size='(128, 128)' newline='false' hs='(0, 0)'/>
+              <label label='user' alignment='center' icon='picons/core/models/voice-agent.png' size='(128, 128)' newline='false' hs='(0, 0)'/>
+          </layout>
+
+          <layout>
+              <separator height='5'/>
+          </layout>
+
+          <layout>
+              <field name='name'/>
+              <field name='model_name'/>
+              <field name='language'/>
+              <field name='voice_name'/>
+              <field name='gemini_api_key'/>
+          </layout>
+
+          <layout>
+              <separator/>
+          </layout>
+
+          <tab name='tab'>
+
+              <panel name='Welcome Message'>
+                  <field name='welcome_message' label='false'/>
+              </panel>
+
+              <panel name='Description'>
+                  <field name='description' label='false'/>
+              </panel>
+
+              <panel name='Configuration'>
+                  <field name='temperature'/>
+                  <field name='max_output_tokens'/>
+              </panel>
+          </tab>
+
+    </layout>
+
+  </view>
+
+
+    <view type="controlpanel">
+        <layout name="control-panel">
+            <menusection newline="false" spacing="0" maximumWidth="70">
+                <menuitem name="Up"  action="up" icon=":/picons/core/actions/up.png" newline="true"/>
+                <menuitem name="Down"  action="down" icon=":/picons/core/actions/down.png"/>
+            </menusection>
+            <menusection  newline="false">
+                <menuitem name="New"  action="new" icon=":/picons/core/actions/new.png"
+                          toolTip="New Row"
+                          minimumHeight="60" maximumWidth="70"/>
+                <menuitem name="Edit"  action="edit" icon=":/picons/core/actions/edit.png"
+                          toolTip="Edit Row"
+                          minimumHeight="60" maximumWidth="70"/>
+                <menuitem name="Delete"  action="delete" askConfirm="Do You Want to Delete ?"
+                          icon="{name: ':/picons/core/actions/delete.png', hue: 330}"
+                          toolTip="Delete Row"
+                          minimumHeight="60" maximumWidth="70"/>
+                      <menuitem name="StartAndStop"  action="startAndStop"
+                          toolTip="Start and Stop Agent"
+                          icon="picons/core/actions/player_play.png" minimumHeight="60" maximumWidth="70"/>
+                          <menuitem name="ShowProcess"  action="showProcess"
+                              toolTip="Show Dialog Log Process"
+                              icon="picons/core/actions/terminal.png" minimumHeight="60" maximumWidth="70"/>
+                <menusection name="Other" position="10" minimumHeight="60" maximumWidth="70">
+                    <menuitem name="Print" action="print" icon=":/picons/core/actions/print.png"/>
+                    <menuitem name="Export" action="exportCSV" icon="picons/core/actions/export.png"/>
+                </menusection>
+            </menusection>
+            <menusection/> <!-- it needs as horizontal spacer -->
+        </layout>
+    </view>
+
+
+
+
+</plusqode>

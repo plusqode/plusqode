@@ -1,0 +1,94 @@
+{
+document_attrs: [
+  {
+    id: "$default",
+    name: "Purchase Invoice",
+    copy_number: 1
+  },
+  {
+    id: "$default",
+    name: "Sale Invoice",
+    copy_number: 1
+  },
+  {
+    id: "$default",
+    name: "Purchase Credit Note",
+    copy_number: 1
+  },
+  {
+    id: "$default",
+    name: "Sale Credit Note",
+    copy_number: 1
+  },
+  {
+    id: "$default",
+    name: "Purchase Quotation",
+    copy_number: 1
+  },
+  {
+    id: "$default",
+    name: "Sale Quotation",
+    copy_number: 1
+  },
+  {
+    id: "$default",
+    name: "Purchase Order",
+    copy_number: 1
+  },
+  {
+    id: "$default",
+    name: "Sale Order",
+    copy_number: 1
+  },
+  {
+    id: "$default",
+    name: "Purchase Removed",
+    copy_number: 1
+  },
+  {
+    id: "$default",
+    name: "Sale Removed",
+    copy_number: 1
+  },
+  {
+    id: "$default",
+    name: "Pos Document",
+    copy_number: 1
+  },
+  {
+    id: "$default",
+    name: "Pos Order",
+    copy_number: 1,
+    print_type: "partial"
+  },
+  {
+    id: "$default",
+    name: "Pos Prefiscal",
+    copy_number: 1,
+    header: "COMPANY NAME,TIMES SQUARE, NEW YORK",
+    footer: "FOOTER"
+  },
+  {
+    id: "$default",
+    name: "Pos Fiscal",
+    copy_number: 1
+  },
+  {
+    id: "$default",
+    name: "Pos Invoice",
+    print_customer: true,
+    print_name: true,
+    print_billing_address: true,
+    print_vat_number: true,
+    print_fiscal_code: true,
+    print_pec: true,
+    copy_number: 2
+  },
+  {
+    id: "$default",
+    name: "default",
+    copy_number: 1
+  }
+]
+}
+

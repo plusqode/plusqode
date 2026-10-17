@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<plusqode>
+  
+  <view type="table" name="contact_type_table" model="contact_type">
+    <field name="name"/>
+  </view>
+
+  <view type="form" name="contact_type_form" model="contact_type">
+
+      <layout>
+          <label label="settings" alignment="center" icon="picons/core/actions/settings.png" size="(100, 100)" newline="false" hs="(0, 0)"/>
+          <label label="settings" alignment="center" icon="picons/core/actions/settings.png" size="(100, 100)" newline="false" hs="(0, 0)"/>
+          <label label="settings" alignment="center" icon="picons/core/actions/settings.png" size="(100, 100)" hs="(0, 0)"/>
+      </layout>
+      <layout>
+          <separator/>
+      </layout>
+
+      <layout minimumWidth="300">
+          <field name="name" main="true"/>
+      </layout>
+      <layout>
+          <separator/>
+      </layout>
+  </view>
+
+
+
+</plusqode>
+

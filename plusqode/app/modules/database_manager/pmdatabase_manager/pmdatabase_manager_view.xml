@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<plusqode>
+
+    <view type="form" name="database_manager_form" model="database_manager">
+
+        <layout>
+            <field name="action"/>
+            <field name="source_database"/>
+            <field name="dest_database"/>
+
+            <menusection name="Apply" label='Apply'>
+                <menuitem action="apply" icon="picons/core/actions-128/ok.png"/>
+            </menusection>
+        </layout>
+
+    </view>
+
+</plusqode>
